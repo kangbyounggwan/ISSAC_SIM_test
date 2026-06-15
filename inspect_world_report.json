@@ -1,0 +1,4019 @@
+{
+  "usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "default_prim": "/World",
+  "used_layers": [
+    "anon:0000019D3BD52450:jm_factory_world_atlas_h1-session.usda",
+    "c:/Users/USER/ISSAC_SIM_test/jm_factory_world_atlas_h1.usd"
+  ],
+  "root_sublayers": [],
+  "tree": {
+    "path": "/",
+    "type": "",
+    "n_children": 6,
+    "n_descendants": 1880,
+    "children": [
+      {
+        "path": "/World",
+        "type": "Xform",
+        "n_children": 13,
+        "n_descendants": 1868,
+        "children": [
+          {
+            "path": "/World/PhysicsScene",
+            "type": "PhysicsScene",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/World/Ground",
+            "type": "Xform",
+            "n_children": 4,
+            "n_descendants": 4,
+            "children": [
+              {
+                "path": "/World/Ground/terrain",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Ground/yard",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Ground/road_west",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Ground/road_east",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/World/Fence",
+            "type": "Xform",
+            "n_children": 50,
+            "n_descendants": 50,
+            "children": [
+              {
+                "path": "/World/Fence/p_0",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_1",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_2",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_3",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_4",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_5",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_6",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_7",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_8",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_9",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_10",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_11",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_12",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_13",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_14",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_15",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_16",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_17",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_18",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_19",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_20",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_21",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_22",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_23",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_24",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_25",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_26",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_27",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_28",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_29",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_30",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_31",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_32",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_33",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_34",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_35",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_36",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_37",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_38",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_39",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_40",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_41",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_42",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_43",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_44",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_45",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_46",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_47",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_48",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Fence/p_49",
+                "type": "Cube",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/World/Dadong",
+            "type": "Xform",
+            "n_children": 3,
+            "n_descendants": 1077,
+            "children": [
+              {
+                "path": "/World/Dadong/F1",
+                "type": "Xform",
+                "n_children": 54,
+                "n_descendants": 54,
+                "children": [
+                  {
+                    "path": "/World/Dadong/F1/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_N_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_10",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_14",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_15",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_19",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_20",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_24",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_25",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_29",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_30",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_34",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_35",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_39",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_40",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_44",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_49",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_50",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_55",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_56",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_57",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_58",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/col_59",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_E_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreL_E_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_W_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_W_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F1/coreR_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              },
+              {
+                "path": "/World/Dadong/F2",
+                "type": "Xform",
+                "n_children": 91,
+                "n_descendants": 987,
+                "children": [
+                  {
+                    "path": "/World/Dadong/F2/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_7",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_8",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_S_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_7",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_8",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_N_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_10",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_14",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_15",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_19",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_20",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_24",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_25",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_29",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_30",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_34",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_35",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_39",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_40",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_44",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_49",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_50",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_55",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_56",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_57",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_58",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/col_59",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_E_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreL_E_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_W_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_W_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreR_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/slab",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreSlab0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/coreSlab1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/girder_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/girder_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/girder_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/girder_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/girder_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_7",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_8",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_10",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/beam_11",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Equip",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Conveyors",
+                    "type": "",
+                    "n_children": 7,
+                    "n_descendants": 56
+                  },
+                  {
+                    "path": "/World/Dadong/F2/PCBStacks",
+                    "type": "",
+                    "n_children": 7,
+                    "n_descendants": 98
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Levelers",
+                    "type": "",
+                    "n_children": 2,
+                    "n_descendants": 124
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Developers",
+                    "type": "",
+                    "n_children": 1,
+                    "n_descendants": 70
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Labels",
+                    "type": "",
+                    "n_children": 7,
+                    "n_descendants": 56
+                  },
+                  {
+                    "path": "/World/Dadong/F2/Models",
+                    "type": "",
+                    "n_children": 54,
+                    "n_descendants": 489
+                  }
+                ]
+              },
+              {
+                "path": "/World/Dadong/Roof",
+                "type": "Xform",
+                "n_children": 33,
+                "n_descendants": 33,
+                "children": [
+                  {
+                    "path": "/World/Dadong/Roof/clad_roof",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/clad_gW",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/clad_gE",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/canopy_N",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_7",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_7",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_8",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_8",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_9",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_10",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_10",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafN_11",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_rafS_11",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_ridge",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_eaveN",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_eaveS",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_purlN",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Dadong/Roof/fr_purlS",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/World/Nadong",
+            "type": "Xform",
+            "n_children": 2,
+            "n_descendants": 57,
+            "children": [
+              {
+                "path": "/World/Nadong/F1",
+                "type": "Xform",
+                "n_children": 33,
+                "n_descendants": 33,
+                "children": [
+                  {
+                    "path": "/World/Nadong/F1/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_S_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_S_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_W_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_W_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/office_w",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/office_w2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_0_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_0_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_0_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_1_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_1_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_1_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_2_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_2_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_2_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_3_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_3_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_3_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_4_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_4_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_4_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_5_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_5_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_5_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_6_45",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_6_54",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/F1/col_6_62",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              },
+              {
+                "path": "/World/Nadong/Roof",
+                "type": "Xform",
+                "n_children": 22,
+                "n_descendants": 22,
+                "children": [
+                  {
+                    "path": "/World/Nadong/Roof/clad_roof",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/clad_gW",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/clad_gE",
+                    "type": "Mesh",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_4",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_5",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafN_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_rafS_6",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_ridge",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_eaveN",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_eaveS",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_purlN",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Nadong/Roof/fr_purlS",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/World/Gadong",
+            "type": "Xform",
+            "n_children": 4,
+            "n_descendants": 81,
+            "children": [
+              {
+                "path": "/World/Gadong/F1",
+                "type": "Xform",
+                "n_children": 19,
+                "n_descendants": 19,
+                "children": [
+                  {
+                    "path": "/World/Gadong/F1/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/slab",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_E_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/stair_E_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/kitchen_w",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/kitchen_door",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/beam_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/beam_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/beam_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F1/beam_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              },
+              {
+                "path": "/World/Gadong/F2",
+                "type": "Xform",
+                "n_children": 24,
+                "n_descendants": 24,
+                "children": [
+                  {
+                    "path": "/World/Gadong/F2/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_S_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_N_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_N_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_N_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/slab",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_E_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/stair_E_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/corr_w",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/off_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/off_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/beam_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/beam_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/beam_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F2/beam_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              },
+              {
+                "path": "/World/Gadong/F3",
+                "type": "Xform",
+                "n_children": 29,
+                "n_descendants": 29,
+                "children": [
+                  {
+                    "path": "/World/Gadong/F3/wall_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_S_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_S_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_S_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_N_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_N_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_N_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/wall_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/slab",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_E_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/stair_E_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/corr_wW",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/corr_wE",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomW_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomE_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomW_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomE_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomW_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/roomE_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/beam_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/beam_1",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/beam_2",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/F3/beam_3",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              },
+              {
+                "path": "/World/Gadong/Roof",
+                "type": "Xform",
+                "n_children": 5,
+                "n_descendants": 5,
+                "children": [
+                  {
+                    "path": "/World/Gadong/Roof/slab",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/Roof/parapet_S_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/Roof/parapet_N_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/Roof/parapet_W_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Gadong/Roof/parapet_E_0",
+                    "type": "Cube",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/World/Lighting",
+            "type": "Xform",
+            "n_children": 4,
+            "n_descendants": 4,
+            "children": [
+              {
+                "path": "/World/Lighting/Sun",
+                "type": "DistantLight",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Lighting/Sky",
+                "type": "DomeLight",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Lighting/H1Key",
+                "type": "SphereLight",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              },
+              {
+                "path": "/World/Lighting/GroupFill",
+                "type": "SphereLight",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/World/RenderCamWide",
+            "type": "Camera",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/World/Robots",
+            "type": "Xform",
+            "n_children": 4,
+            "n_descendants": 582,
+            "children": [
+              {
+                "path": "/World/Robots/Atlas_1",
+                "type": "Xform",
+                "n_children": 47,
+                "n_descendants": 198,
+                "children": [
+                  {
+                    "path": "/World/Robots/Atlas_1/Looks",
+                    "type": "Scope",
+                    "n_children": 2,
+                    "n_descendants": 4
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/joints",
+                    "type": "Scope",
+                    "n_children": 42,
+                    "n_descendants": 42
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/root_joint",
+                    "type": "PhysicsFixedJoint",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/world",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/pelvis",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/ltorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/mtorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/utorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_clav",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_scap",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_uarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_larm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_ufarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_lfarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_hand",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_hand_force_torque",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_situational_awareness_camera_link",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/head",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 15
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/center_bottom_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/center_top_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/left_camera_frame",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/left_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/hokuyo_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/head_hokuyo_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/right_camera_frame",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/right_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_clav",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_scap",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_uarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_larm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_ufarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_lfarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_hand",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_hand_force_torque",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_situational_awareness_camera_link",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_uglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_lglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_uleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_lleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_talus",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/l_foot",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_uglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_lglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_uleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_lleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_talus",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_1/r_foot",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  }
+                ]
+              },
+              {
+                "path": "/World/Robots/H1_1",
+                "type": "Xform",
+                "n_children": 23,
+                "n_descendants": 91,
+                "children": [
+                  {
+                    "path": "/World/Robots/H1_1/Looks",
+                    "type": "Scope",
+                    "n_children": 2,
+                    "n_descendants": 4
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/joints",
+                    "type": "Scope",
+                    "n_children": 19,
+                    "n_descendants": 19
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/root_joint",
+                    "type": "PhysicsFixedJoint",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/pelvis",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_hip_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_hip_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_hip_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_knee_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_ankle_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_hip_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_hip_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_hip_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_knee_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_ankle_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/torso_link",
+                    "type": "Xform",
+                    "n_children": 7,
+                    "n_descendants": 7
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_shoulder_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_shoulder_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_shoulder_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/left_elbow_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_shoulder_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_shoulder_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_shoulder_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_1/right_elbow_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  }
+                ]
+              },
+              {
+                "path": "/World/Robots/Atlas_2",
+                "type": "Xform",
+                "n_children": 47,
+                "n_descendants": 198,
+                "children": [
+                  {
+                    "path": "/World/Robots/Atlas_2/Looks",
+                    "type": "Scope",
+                    "n_children": 2,
+                    "n_descendants": 4
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/joints",
+                    "type": "Scope",
+                    "n_children": 42,
+                    "n_descendants": 42
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/root_joint",
+                    "type": "PhysicsFixedJoint",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/world",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/pelvis",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/ltorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/mtorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/utorso",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_clav",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_scap",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_uarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_larm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_ufarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_lfarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_hand",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_hand_force_torque",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_situational_awareness_camera_link",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/head",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 15
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/center_bottom_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/center_top_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/left_camera_frame",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/left_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/hokuyo_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/head_hokuyo_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/right_camera_frame",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/right_led_frame",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_clav",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_scap",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_uarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_larm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_ufarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_lfarm",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_hand",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_hand_force_torque",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_situational_awareness_camera_link",
+                    "type": "Xform",
+                    "n_children": 3,
+                    "n_descendants": 3
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_uglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_lglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_uleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_lleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_talus",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/l_foot",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_uglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_lglut",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_uleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_lleg",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_talus",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/Atlas_2/r_foot",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  }
+                ]
+              },
+              {
+                "path": "/World/Robots/H1_2",
+                "type": "Xform",
+                "n_children": 23,
+                "n_descendants": 91,
+                "children": [
+                  {
+                    "path": "/World/Robots/H1_2/Looks",
+                    "type": "Scope",
+                    "n_children": 2,
+                    "n_descendants": 4
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/joints",
+                    "type": "Scope",
+                    "n_children": 19,
+                    "n_descendants": 19
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/root_joint",
+                    "type": "PhysicsFixedJoint",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/pelvis",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_hip_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_hip_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_hip_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_knee_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_ankle_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_hip_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_hip_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_hip_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_knee_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_ankle_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/torso_link",
+                    "type": "Xform",
+                    "n_children": 7,
+                    "n_descendants": 7
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_shoulder_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_shoulder_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_shoulder_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/left_elbow_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_shoulder_pitch_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_shoulder_roll_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_shoulder_yaw_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  },
+                  {
+                    "path": "/World/Robots/H1_2/right_elbow_link",
+                    "type": "Xform",
+                    "n_children": 2,
+                    "n_descendants": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/World/RenderCam",
+            "type": "Camera",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/World/FloorCam",
+            "type": "Camera",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/World/LevelerCam",
+            "type": "Camera",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/World/DevCam",
+            "type": "Camera",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/Render",
+        "type": "",
+        "n_children": 3,
+        "n_descendants": 6,
+        "children": [
+          {
+            "path": "/Render/OmniverseKit",
+            "type": "",
+            "n_children": 1,
+            "n_descendants": 2,
+            "children": [
+              {
+                "path": "/Render/OmniverseKit/HydraTextures",
+                "type": "",
+                "n_children": 1,
+                "n_descendants": 1,
+                "children": [
+                  {
+                    "path": "/Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0",
+                    "type": "RenderProduct",
+                    "n_children": 0,
+                    "n_descendants": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Render/OmniverseGlobalRenderSettings",
+            "type": "RenderSettings",
+            "n_children": 0,
+            "n_descendants": 0,
+            "children": []
+          },
+          {
+            "path": "/Render/Vars",
+            "type": "",
+            "n_children": 1,
+            "n_descendants": 1,
+            "children": [
+              {
+                "path": "/Render/Vars/LdrColor",
+                "type": "RenderVar",
+                "n_children": 0,
+                "n_descendants": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/OmniverseKit_Persp",
+        "type": "Camera",
+        "n_children": 0,
+        "n_descendants": 0,
+        "children": []
+      },
+      {
+        "path": "/OmniverseKit_Front",
+        "type": "Camera",
+        "n_children": 0,
+        "n_descendants": 0,
+        "children": []
+      },
+      {
+        "path": "/OmniverseKit_Top",
+        "type": "Camera",
+        "n_children": 0,
+        "n_descendants": 0,
+        "children": []
+      },
+      {
+        "path": "/OmniverseKit_Right",
+        "type": "Camera",
+        "n_children": 0,
+        "n_descendants": 0,
+        "children": []
+      }
+    ]
+  },
+  "robots": {
+    "Atlas_1": {
+      "path": "/World/Robots/Atlas_1",
+      "n_mesh": 0,
+      "xformOps": [
+        {
+          "name": "xformOp:translate",
+          "value": "(42.5, 14.5, 7.0234499860554935)"
+        },
+        {
+          "name": "xformOp:rotateZ",
+          "value": "235.0"
+        }
+      ]
+    },
+    "H1_1": {
+      "path": "/World/Robots/H1_1",
+      "n_mesh": 0,
+      "xformOps": [
+        {
+          "name": "xformOp:translate",
+          "value": "(39.5, 13, 7.119200018048287)"
+        },
+        {
+          "name": "xformOp:rotateZ",
+          "value": "200.0"
+        }
+      ]
+    },
+    "Atlas_2": {
+      "path": "/World/Robots/Atlas_2",
+      "n_mesh": 0,
+      "xformOps": [
+        {
+          "name": "xformOp:translate",
+          "value": "(41.5, 18, 7.0234499860554935)"
+        },
+        {
+          "name": "xformOp:rotateZ",
+          "value": "255.0"
+        }
+      ]
+    },
+    "H1_2": {
+      "path": "/World/Robots/H1_2",
+      "n_mesh": 0,
+      "xformOps": [
+        {
+          "name": "xformOp:translate",
+          "value": "(42.5, 11.5, 7.119200018048287)"
+        },
+        {
+          "name": "xformOp:rotateZ",
+          "value": "215.0"
+        }
+      ]
+    }
+  },
+  "F2_children": [
+    {
+      "name": "wall_S_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_3",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_4",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_5",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_6",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_7",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_8",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_S_9",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_3",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_4",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_5",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_6",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_7",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_8",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_N_9",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_W_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "wall_E_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_3",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_4",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_5",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_9",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_10",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_14",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_15",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_19",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_20",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_24",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_25",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_29",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_30",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_34",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_35",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_39",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_40",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_44",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_45",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_49",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_50",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_54",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_55",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_56",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_57",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_58",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "col_59",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_S_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_N_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_W_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_E_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_E_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreL_E_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_S_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_N_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_W_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_W_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_W_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreR_E_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "slab",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreSlab0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "coreSlab1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "girder_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "girder_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "girder_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "girder_3",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "girder_4",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_0",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_1",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_2",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_3",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_4",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_5",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_6",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_7",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_8",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_9",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_10",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "beam_11",
+      "type": "Cube",
+      "n_children": 0,
+      "n_descendants": 0
+    },
+    {
+      "name": "Equip",
+      "type": "Xform",
+      "n_children": 3,
+      "n_descendants": 3
+    },
+    {
+      "name": "Conveyors",
+      "type": "",
+      "n_children": 7,
+      "n_descendants": 56
+    },
+    {
+      "name": "PCBStacks",
+      "type": "",
+      "n_children": 7,
+      "n_descendants": 98
+    },
+    {
+      "name": "Levelers",
+      "type": "",
+      "n_children": 2,
+      "n_descendants": 124
+    },
+    {
+      "name": "Developers",
+      "type": "",
+      "n_children": 1,
+      "n_descendants": 70
+    },
+    {
+      "name": "Labels",
+      "type": "",
+      "n_children": 7,
+      "n_descendants": 56
+    },
+    {
+      "name": "Models",
+      "type": "",
+      "n_children": 54,
+      "n_descendants": 489
+    }
+  ]
+}

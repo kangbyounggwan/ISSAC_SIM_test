@@ -1,0 +1,518 @@
+#usda 1.0
+
+over "World"
+{
+    over "Dadong"
+    {
+        over "F2"
+        {
+            def "Labels"
+            {
+                def "wet_recv"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/wet_recv/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 270
+                        double3 xformOp:translate = (48.75, 26.25, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/wet_recv/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/wet_recv/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/wet_recv/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_out.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/wet_recv/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (48.75, 26.25, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.85, 0.45, 0.1)]
+                        float xformOp:rotateZ = 0
+                        double3 xformOp:translate = (48.5, 26.25, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "psr_in"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/psr_in/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 270
+                        double3 xformOp:translate = (51.4, 26.25, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/psr_in/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/psr_in/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/psr_in/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_in.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/psr_in/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (51.4, 26.25, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.12, 0.55, 0.25)]
+                        float xformOp:rotateZ = 0
+                        double3 xformOp:translate = (51.15, 26.25, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "psr_recv"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/psr_recv/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 270
+                        double3 xformOp:translate = (62.9, 26.25, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/psr_recv/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/psr_recv/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/psr_recv/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_out.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/psr_recv/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (62.9, 26.25, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.85, 0.45, 0.1)]
+                        float xformOp:rotateZ = 0
+                        double3 xformOp:translate = (62.65, 26.25, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "df_in"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/df_in/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 270
+                        double3 xformOp:translate = (62.9, 17.25, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/df_in/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/df_in/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/df_in/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_in.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/df_in/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (62.9, 17.25, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.12, 0.55, 0.25)]
+                        float xformOp:rotateZ = 180
+                        double3 xformOp:translate = (62.65, 17.25, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "df_recv"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/df_recv/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 90
+                        double3 xformOp:translate = (33.1, 17.25, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/df_recv/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/df_recv/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/df_recv/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_out.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/df_recv/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (33.1, 17.25, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.85, 0.45, 0.1)]
+                        float xformOp:rotateZ = 180
+                        double3 xformOp:translate = (33.35, 17.25, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "psr_dev_in"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/psr_dev_in/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 180
+                        double3 xformOp:translate = (53.75, 4.6, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/psr_dev_in/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/psr_dev_in/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/psr_dev_in/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_in.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/psr_dev_in/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (53.75, 4.6, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.12, 0.55, 0.25)]
+                        float xformOp:rotateZ = 90
+                        double3 xformOp:translate = (53.75, 4.85, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+
+                def "tunnel_rv"
+                {
+                    def Mesh "board"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.5, -0.02, -0.25), (0.5, 0.02, 0.25)]
+                        int[] faceVertexCounts = [4]
+                        int[] faceVertexIndices = [0, 1, 2, 3]
+                        rel material:binding = </World/Dadong/F2/Labels/tunnel_rv/mat>
+                        point3f[] points = [(-0.5, 0, -0.25), (0.5, 0, -0.25), (0.5, 0, 0.25), (-0.5, 0, 0.25)]
+                        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+                            interpolation = "faceVarying"
+                        )
+                        float xformOp:rotateZ = 270
+                        double3 xformOp:translate = (58.4, 3.75, 8.325)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+
+                    def Material "mat"
+                    {
+                        token outputs:surface.connect = </World/Dadong/F2/Labels/tunnel_rv/mat/surf.outputs:surface>
+
+                        def Shader "surf"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor.connect = </World/Dadong/F2/Labels/tunnel_rv/mat/tex.outputs:rgb>
+                            color3f inputs:emissiveColor.connect = </World/Dadong/F2/Labels/tunnel_rv/mat/tex.outputs:rgb>
+                            float inputs:roughness = 0.7
+                            token outputs:surface
+                        }
+
+                        def Shader "tex"
+                        {
+                            uniform token info:id = "UsdUVTexture"
+                            asset inputs:file = @C:/Users/USER/ISSAC_SIM_test/textures/label_out.png@
+                            token inputs:sourceColorSpace = "sRGB"
+                            float2 inputs:st.connect = </World/Dadong/F2/Labels/tunnel_rv/mat/st.outputs:result>
+                            float3 outputs:rgb
+                        }
+
+                        def Shader "st"
+                        {
+                            uniform token info:id = "UsdPrimvarReader_float2"
+                            token inputs:varname = "st"
+                            float2 outputs:result
+                        }
+                    }
+
+                    def Cube "pole"
+                    {
+                        float3[] extent = [(-0.5, -0.5, -0.5), (0.5, 0.5, 0.5)]
+                        color3f[] primvars:displayColor = [(0.3, 0.31, 0.34)]
+                        double size = 1
+                        float3 xformOp:scale = (0.05, 0.05, 2)
+                        double3 xformOp:translate = (58.4, 3.75, 7.074999999999999)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                    }
+
+                    def Mesh "arrow"
+                    {
+                        uniform bool doubleSided = 1
+                        float3[] extent = [(-0.6, -0.3, -0.01), (0.6, 0.3, 0.01)]
+                        int[] faceVertexCounts = [7]
+                        int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6]
+                        point3f[] points = [(-0.55, -0.09, 0), (0.1, -0.09, 0), (0.1, -0.24, 0), (0.58, 0, 0), (0.1, 0.24, 0), (0.1, 0.09, 0), (-0.55, 0.09, 0)]
+                        color3f[] primvars:displayColor = [(0.85, 0.45, 0.1)]
+                        float xformOp:rotateZ = -90
+                        double3 xformOp:translate = (58.15, 3.75, 6.105)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                    }
+                }
+            }
+        }
+    }
+}
+

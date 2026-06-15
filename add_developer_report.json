@@ -1,0 +1,30 @@
+{
+  "targets": [
+    {
+      "id": "psr_dev",
+      "kr": "PSR 현상기",
+      "center": [
+        53.75,
+        10.75
+      ],
+      "axis": "y",
+      "length": 11.5,
+      "depth": 1.8,
+      "prefix": "/World/Dadong/F2/Developers/psr_dev"
+    }
+  ],
+  "deleted": [
+    "/World/Dadong/F2/Equip/psr_dev"
+  ],
+  "dev_cam_eye": [
+    41.0,
+    8.7,
+    14.8
+  ],
+  "out_usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "out_bytes": 24667011,
+  "rendered": [
+    "C:\\Users\\USER\\ISSAC_SIM_test\\render_developer",
+    "C:\\Users\\USER\\ISSAC_SIM_test\\render_developer_top"
+  ]
+}

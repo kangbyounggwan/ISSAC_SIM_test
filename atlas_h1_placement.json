@@ -1,0 +1,79 @@
+{
+  "floor": "DA-2F",
+  "floor_z": 6.075,
+  "robots": [
+    {
+      "name": "Atlas_1",
+      "path": "/World/Robots/Atlas_1",
+      "ref": "C:/tmp/atlas-mujoco/atlas_clean.usd",
+      "x": 42.5,
+      "y": 14.5,
+      "yaw": 235.0,
+      "feet_z": 6.075,
+      "head_z": 8.066,
+      "bbox_size": [
+        1.787,
+        1.294,
+        1.991
+      ],
+      "mesh_prims": 0,
+      "clear": 2.136
+    },
+    {
+      "name": "H1_1",
+      "path": "/World/Robots/H1_1",
+      "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd",
+      "x": 39.5,
+      "y": 13.0,
+      "yaw": 200.0,
+      "feet_z": 6.075,
+      "head_z": 7.881,
+      "bbox_size": [
+        0.503,
+        0.601,
+        1.806
+      ],
+      "mesh_prims": 0,
+      "clear": 2.25
+    },
+    {
+      "name": "Atlas_2",
+      "path": "/World/Robots/Atlas_2",
+      "ref": "C:/tmp/atlas-mujoco/atlas_clean.usd",
+      "x": 41.5,
+      "y": 18.0,
+      "yaw": 255.0,
+      "feet_z": 6.075,
+      "head_z": 8.066,
+      "bbox_size": [
+        2.065,
+        0.831,
+        1.991
+      ],
+      "mesh_prims": 0,
+      "clear": 2.0
+    },
+    {
+      "name": "H1_2",
+      "path": "/World/Robots/H1_2",
+      "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd",
+      "x": 42.5,
+      "y": 11.5,
+      "yaw": 215.0,
+      "feet_z": 6.075,
+      "head_z": 7.881,
+      "bbox_size": [
+        0.566,
+        0.612,
+        1.806
+      ],
+      "mesh_prims": 0,
+      "clear": 4.25
+    }
+  ],
+  "camera_eye": [
+    30.77,
+    1.91,
+    20.39
+  ]
+}

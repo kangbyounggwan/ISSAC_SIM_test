@@ -81,16 +81,17 @@ def main(out_path="jm_factory_world.usda"):
                 mc.CreateApproximationAttr(UsdPhysics.Tokens.convexHull)
             tag(m.GetPrim(), p)
 
-    # 조명
+    # 조명 — 오후 5시 따뜻한 늦은 오후(late afternoon) 프리셋
     UsdGeom.Xform.Define(stage, "/World/Lighting")
     sun = UsdLux.DistantLight.Define(stage, "/World/Lighting/Sun")
-    sun.CreateIntensityAttr(2500.0)
-    sun.CreateAngleAttr(0.53)
-    sun.CreateColorAttr(Gf.Vec3f(1.0, 0.97, 0.9))
-    UsdGeom.Xformable(sun.GetPrim()).AddRotateXYZOp().Set(Gf.Vec3f(-55.0, 0.0, 25.0))
+    sun.CreateIntensityAttr(2200.0)                 # 늦은 오후: 밝게(노을 1600 → 2200)
+    sun.CreateAngleAttr(0.8)                         # 태양 더 높음 → 선명한 그림자
+    sun.CreateColorAttr(Gf.Vec3f(1.0, 0.8, 0.55))   # 따뜻한 금빛(노을보다 덜 붉음)
+    # X=고도(늦은 오후 -32°, 노을 -10°보다 높음), Z=방위(서쪽 사광)
+    UsdGeom.Xformable(sun.GetPrim()).AddRotateXYZOp().Set(Gf.Vec3f(-32.0, 0.0, 215.0))
     dome = UsdLux.DomeLight.Define(stage, "/World/Lighting/Sky")
-    dome.CreateIntensityAttr(800.0)
-    dome.CreateColorAttr(Gf.Vec3f(0.8, 0.85, 0.95))
+    dome.CreateIntensityAttr(550.0)                 # 오후 하늘: 밝게(노을 250 → 550)
+    dome.CreateColorAttr(Gf.Vec3f(0.85, 0.78, 0.68)) # 따뜻하지만 밝은 앰비언트
 
     stage.GetRootLayer().Save()
     print("USD world written:", out_path)

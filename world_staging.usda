@@ -1,0 +1,100 @@
+#usda 1.0
+
+over "World"
+{
+    def Xform "Lighting"
+    {
+        def DistantLight "Sun"
+        {
+            float inputs:angle = 0.8
+            color3f inputs:color = (1, 0.8, 0.55)
+            float inputs:intensity = 1600
+            float3 xformOp:rotateXYZ = (-32, 0, 215)
+            uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+        }
+
+        def DomeLight "Sky"
+        {
+            color3f inputs:color = (0.85, 0.78, 0.68)
+            float inputs:intensity = 300
+            token visibility = "invisible"
+        }
+
+        def SphereLight "H1Key"
+        {
+            color3f inputs:color = (1, 0.97, 0.92)
+            float inputs:intensity = 6000
+            float inputs:radius = 0.8
+            token visibility = "invisible"
+            double3 xformOp:translate = (39.93040672973966, 11.913572061259702, 8.880953040719032)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def SphereLight "GroupFill"
+        {
+            color3f inputs:color = (1, 0.97, 0.92)
+            float inputs:intensity = 8000
+            float inputs:radius = 1
+            token visibility = "invisible"
+            double3 xformOp:translate = (40, 12.75, 9.566)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def Camera "RenderCamWide"
+    {
+        float2 clippingRange = (0.05, 3000)
+        float focalLength = 22
+        float focusDistance = 15
+        float horizontalAperture = 20.955
+        float verticalAperture = 13.096875
+        matrix4d xformOp:transform = ( (0.7480746383750736, -0.6636145985585328, 0, 0), (0.3975136702310772, 0.4481063191695781, 0.8007394137294046, 0), (-0.5313823645920338, -0.5990128473582929, 0.5990128473582929, 0), (34.45967126085915, 5.42837935088531, 16.463169230733907, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "RenderCam"
+    {
+        float2 clippingRange = (0.1, 4000)
+        float focalLength = 30
+        float focusDistance = 18
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        token visibility = "inherited"
+        matrix4d xformOp:transform = ( (0.7546055221635045, -0.6561787149247866, 0, 0), (0.4161372952765554, 0.47855788956803863, 0.7731830946238398, 0), (-0.507346289431841, -0.5834482328466171, 0.6341828617898013, 0), (32.36776679022686, 3.9979318087608906, 18.315291512216426, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "FloorCam"
+    {
+        float2 clippingRange = (0.1, 4000)
+        float focalLength = 17
+        float focusDistance = 46
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (1, 0, -0, 0), (0, 0.8762159086766469, 0.48191874977215593, 0), (0, -0.48191874977215593, 0.8762159086766469, 0), (41.5, -7.168262489519172, 46.90593179912576, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "LevelerCam"
+    {
+        float2 clippingRange = (0.1, 4000)
+        float focalLength = 26
+        float focusDistance = 13
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (0.924678098474716, -0.3807498052542949, 0, 0), (0.15823081081130408, 0.38427482625602416, 0.909558062146612, 0), (-0.3463140550297963, -0.8410484193580765, 0.41557686603575544, 0), (44.74791728461265, 6.316370548345004, 12.577499258464822, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "DevCam"
+    {
+        float2 clippingRange = (0.1, 4000)
+        float focalLength = 20
+        float focusDistance = 15
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (0.15799050110667284, -0.9874406319167054, 0, 0), (0.5033189790099871, 0.08053103664159793, 0.8603399081210714, 0), (-0.849534582538231, -0.13592553320611694, 0.5097207495229386, 0), (41.00698126192653, 8.711117001908246, 14.82081124284408, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+}
+

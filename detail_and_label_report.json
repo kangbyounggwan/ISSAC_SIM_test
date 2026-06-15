@@ -1,0 +1,150 @@
+{
+  "machines": [
+    {
+      "id": "psr_lvl",
+      "kind": "leveler",
+      "axis": "x",
+      "prefix": "/World/Dadong/F2/Levelers/psr_lvl"
+    },
+    {
+      "id": "df_lvl",
+      "kind": "leveler",
+      "axis": "x",
+      "prefix": "/World/Dadong/F2/Levelers/df_lvl"
+    },
+    {
+      "id": "psr_dev",
+      "kind": "developer",
+      "axis": "y",
+      "prefix": "/World/Dadong/F2/Developers/psr_dev"
+    }
+  ],
+  "labels": [
+    {
+      "id": "wet_recv",
+      "role": "out",
+      "sign": [
+        48.75,
+        26.25
+      ],
+      "face": 270.0,
+      "arrow": [
+        48.5,
+        26.25
+      ],
+      "dir": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "psr_in",
+      "role": "in",
+      "sign": [
+        51.4,
+        26.25
+      ],
+      "face": 270.0,
+      "arrow": [
+        51.15,
+        26.25
+      ],
+      "dir": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "psr_recv",
+      "role": "out",
+      "sign": [
+        62.9,
+        26.25
+      ],
+      "face": 270.0,
+      "arrow": [
+        62.65,
+        26.25
+      ],
+      "dir": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "df_in",
+      "role": "in",
+      "sign": [
+        62.9,
+        17.25
+      ],
+      "face": 270.0,
+      "arrow": [
+        62.65,
+        17.25
+      ],
+      "dir": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "df_recv",
+      "role": "out",
+      "sign": [
+        33.1,
+        17.25
+      ],
+      "face": 90.0,
+      "arrow": [
+        33.35,
+        17.25
+      ],
+      "dir": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "psr_dev_in",
+      "role": "in",
+      "sign": [
+        53.75,
+        4.6
+      ],
+      "face": 180.0,
+      "arrow": [
+        53.75,
+        4.85
+      ],
+      "dir": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "tunnel_rv",
+      "role": "out",
+      "sign": [
+        58.4,
+        3.75
+      ],
+      "face": 270.0,
+      "arrow": [
+        58.15,
+        3.75
+      ],
+      "dir": [
+        0.0,
+        -1.0
+      ]
+    }
+  ],
+  "out_usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "out_bytes": 24681707,
+  "rendered": [
+    "render_dl_top",
+    "render_dl_lvl",
+    "render_dl_dev"
+  ]
+}

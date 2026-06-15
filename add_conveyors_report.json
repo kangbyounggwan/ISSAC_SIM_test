@@ -1,0 +1,124 @@
+{
+  "stations": [
+    {
+      "id": "wet_recv",
+      "kr": "수취",
+      "role": "out",
+      "axis": "x",
+      "conv": [
+        49.6,
+        26.25
+      ],
+      "pcb": [
+        49.6,
+        24.75
+      ]
+    },
+    {
+      "id": "psr_in",
+      "kr": "투입",
+      "role": "in",
+      "axis": "x",
+      "conv": [
+        52.25,
+        26.25
+      ],
+      "pcb": [
+        52.25,
+        24.75
+      ]
+    },
+    {
+      "id": "psr_recv",
+      "kr": "수취",
+      "role": "out",
+      "axis": "x",
+      "conv": [
+        63.75,
+        26.25
+      ],
+      "pcb": [
+        63.75,
+        24.75
+      ]
+    },
+    {
+      "id": "df_in",
+      "kr": "투입",
+      "role": "in",
+      "axis": "x",
+      "conv": [
+        63.75,
+        17.25
+      ],
+      "pcb": [
+        63.75,
+        15.75
+      ]
+    },
+    {
+      "id": "df_recv",
+      "kr": "수취",
+      "role": "out",
+      "axis": "x",
+      "conv": [
+        32.25,
+        17.25
+      ],
+      "pcb": [
+        32.25,
+        15.75
+      ]
+    },
+    {
+      "id": "psr_dev_in",
+      "kr": "투입",
+      "role": "in",
+      "axis": "y",
+      "conv": [
+        53.75,
+        3.75
+      ],
+      "pcb": [
+        52.25,
+        3.75
+      ]
+    },
+    {
+      "id": "tunnel_rv",
+      "kr": "수취",
+      "role": "out",
+      "axis": "y",
+      "conv": [
+        59.25,
+        3.75
+      ],
+      "pcb": [
+        57.75,
+        3.75
+      ]
+    }
+  ],
+  "deleted": [
+    "/World/Dadong/F2/Equip/wet_recv",
+    "/World/Dadong/F2/Equip/psr_in",
+    "/World/Dadong/F2/Equip/psr_recv",
+    "/World/Dadong/F2/Equip/df_in",
+    "/World/Dadong/F2/Equip/df_recv",
+    "/World/Dadong/F2/Equip/psr_dev_in",
+    "/World/Dadong/F2/Equip/tunnel_rv"
+  ],
+  "floor_cam_eye": [
+    41.5,
+    -7.2,
+    46.9
+  ],
+  "aisle_cam_eye": [
+    32.4,
+    4.0,
+    18.3
+  ],
+  "out_usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "out_bytes": 24642350,
+  "rendered": true
+}

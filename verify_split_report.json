@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "structural_paths_equal": {
+      "pass": true,
+      "detail": "1297 paths identical"
+    },
+    "robots_present": {
+      "pass": true,
+      "detail": "4/4"
+    },
+    "robot_bbox_match": {
+      "pass": true,
+      "detail": "all 4 within 1mm"
+    },
+    "composition_layers": {
+      "pass": true,
+      "detail": "5 sublayers + 2 robot refs present"
+    },
+    "default_prim": {
+      "pass": true,
+      "detail": "/World"
+    },
+    "no_composition_errors": {
+      "pass": true,
+      "detail": "clean"
+    }
+  },
+  "pass": true,
+  "counts": {
+    "structural_old": 1297,
+    "structural_new": 1297,
+    "missing": 0,
+    "extra": 0
+  },
+  "robot_bboxes": {
+    "old": {
+      "Atlas_1": [
+        1.7871,
+        1.2939,
+        1.9914,
+        6.075,
+        8.0664
+      ],
+      "H1_1": [
+        0.5028,
+        0.6006,
+        1.806,
+        6.075,
+        7.881
+      ],
+      "Atlas_2": [
+        2.0646,
+        0.8306,
+        1.9914,
+        6.075,
+        8.0664
+      ],
+      "H1_2": [
+        0.5663,
+        0.6119,
+        1.806,
+        6.075,
+        7.881
+      ]
+    },
+    "new": {
+      "Atlas_1": [
+        1.7871,
+        1.2939,
+        1.9914,
+        6.075,
+        8.0664
+      ],
+      "H1_1": [
+        0.5028,
+        0.6006,
+        1.806,
+        6.075,
+        7.881
+      ],
+      "Atlas_2": [
+        2.0646,
+        0.8306,
+        1.9914,
+        6.075,
+        8.0664
+      ],
+      "H1_2": [
+        0.5663,
+        0.6119,
+        1.806,
+        6.075,
+        7.881
+      ]
+    }
+  },
+  "new_used_layers": [
+    "c:/Users/USER/ISSAC_SIM_test/world_robots.usda",
+    "c:/tmp/unitree_ros/robots/h1_description/h1_clean.usd",
+    "c:/Users/USER/ISSAC_SIM_test/world_staging.usda",
+    "c:/Users/USER/ISSAC_SIM_test/world_base.usd",
+    "anon:0000024B33DFE520:jm_factory_world_atlas_h1-session.usda",
+    "c:/Users/USER/ISSAC_SIM_test/jm_factory_world_atlas_h1.usd",
+    "c:/Users/USER/ISSAC_SIM_test/world_labels.usda",
+    "c:/Users/USER/ISSAC_SIM_test/world_equipment.usd",
+    "c:/tmp/atlas-mujoco/atlas_clean.usd"
+  ],
+  "file_sizes": {
+    "jm_factory_world_atlas_h1.usd": 759,
+    "jm_factory_world_atlas_h1.flat.usd": 24725591,
+    "world_base.usd": 22828,
+    "world_equipment.usd": 41904,
+    "world_labels.usda": 26704,
+    "world_robots.usda": 1403,
+    "world_staging.usda": 4143
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "built": [
+    {
+      "id": "mylar",
+      "kr": "마일러",
+      "zone": "wet"
+    },
+    {
+      "id": "develop",
+      "kr": "현상",
+      "zone": "wet"
+    },
+    {
+      "id": "etch",
+      "kr": "부식",
+      "zone": "wet"
+    },
+    {
+      "id": "strip",
+      "kr": "박리",
+      "zone": "wet"
+    },
+    {
+      "id": "dryetc",
+      "kr": "건조 외",
+      "zone": "wet"
+    },
+    {
+      "id": "dev_liq",
+      "kr": "현상액",
+      "zone": "reagent"
+    },
+    {
+      "id": "hcl",
+      "kr": "염산",
+      "zone": "reagent"
+    },
+    {
+      "id": "chlorate",
+      "kr": "염소산",
+      "zone": "reagent"
+    },
+    {
+      "id": "strip_liq",
+      "kr": "박리액",
+      "zone": "reagent"
+    },
+    {
+      "id": "ctrl_pnl",
+      "kr": "조작 판넬",
+      "zone": "reagent"
+    },
+    {
+      "id": "cp1",
+      "kr": "CP",
+      "zone": "misc"
+    },
+    {
+      "id": "cp2",
+      "kr": "CP",
+      "zone": "misc"
+    },
+    {
+      "id": "se1",
+      "kr": "S/E",
+      "zone": "misc"
+    },
+    {
+      "id": "dongbun1",
+      "kr": "동분",
+      "zone": "misc"
+    },
+    {
+      "id": "printer1",
+      "kr": "인쇄기",
+      "zone": "printer"
+    },
+    {
+      "id": "printer2",
+      "kr": "인쇄기",
+      "zone": "printer"
+    },
+    {
+      "id": "printer3",
+      "kr": "인쇄기",
+      "zone": "printer"
+    },
+    {
+      "id": "lamin",
+      "kr": "자동 LAMINATION",
+      "zone": "df"
+    },
+    {
+      "id": "dongbun2",
+      "kr": "동분",
+      "zone": "misc"
+    },
+    {
+      "id": "se2",
+      "kr": "S/E",
+      "zone": "misc"
+    },
+    {
+      "id": "cp3",
+      "kr": "CP",
+      "zone": "misc"
+    },
+    {
+      "id": "exp1",
+      "kr": "노광1",
+      "zone": "expose"
+    },
+    {
+      "id": "exp2",
+      "kr": "노광2",
+      "zone": "expose"
+    },
+    {
+      "id": "ldi",
+      "kr": "LDI",
+      "zone": "ldi"
+    },
+    {
+      "id": "rack85",
+      "kr": "8x5",
+      "zone": "misc"
+    },
+    {
+      "id": "rack86",
+      "kr": "8x6",
+      "zone": "misc"
+    },
+    {
+      "id": "dryfilm2",
+      "kr": "Dry Film 2",
+      "zone": "misc"
+    },
+    {
+      "id": "dryfilm1",
+      "kr": "Dry Film 1",
+      "zone": "misc"
+    },
+    {
+      "id": "table_w",
+      "kr": "테이블",
+      "zone": "util"
+    },
+    {
+      "id": "ac_w",
+      "kr": "A/C",
+      "zone": "util"
+    },
+    {
+      "id": "aw_w",
+      "kr": "AW 보관",
+      "zone": "util"
+    },
+    {
+      "id": "aws_w",
+      "kr": "A/W Setting",
+      "zone": "util"
+    },
+    {
+      "id": "su_la",
+      "kr": "수 L/A",
+      "zone": "util"
+    },
+    {
+      "id": "table_a",
+      "kr": "테이블",
+      "zone": "util"
+    },
+    {
+      "id": "ac1",
+      "kr": "A/C",
+      "zone": "util"
+    },
+    {
+      "id": "final_dry1",
+      "kr": "최종건조",
+      "zone": "dryer"
+    },
+    {
+      "id": "final_dry2",
+      "kr": "최종건조",
+      "zone": "dryer"
+    },
+    {
+      "id": "aw_s",
+      "kr": "AW 보관",
+      "zone": "util"
+    },
+    {
+      "id": "air1",
+      "kr": "Air",
+      "zone": "util"
+    },
+    {
+      "id": "aws_s",
+      "kr": "A/W Setting",
+      "zone": "util"
+    },
+    {
+      "id": "dongbun3",
+      "kr": "동분",
+      "zone": "misc"
+    },
+    {
+      "id": "se3",
+      "kr": "S/E",
+      "zone": "misc"
+    },
+    {
+      "id": "tunnel",
+      "kr": "터널 건조기",
+      "zone": "dryer"
+    },
+    {
+      "id": "table_s",
+      "kr": "테이블",
+      "zone": "util"
+    },
+    {
+      "id": "cmm",
+      "kr": "3차원측정",
+      "zone": "measure"
+    },
+    {
+      "id": "silk2",
+      "kr": "Silk Auto-2",
+      "zone": "silk"
+    },
+    {
+      "id": "silk1",
+      "kr": "Silk Auto-1",
+      "zone": "silk"
+    },
+    {
+      "id": "exp2b",
+      "kr": "노광2",
+      "zone": "expose"
+    },
+    {
+      "id": "exp1b",
+      "kr": "노광1",
+      "zone": "expose"
+    },
+    {
+      "id": "predry",
+      "kr": "가건조",
+      "zone": "dryer"
+    },
+    {
+      "id": "ac2",
+      "kr": "A/C",
+      "zone": "util"
+    },
+    {
+      "id": "ac3",
+      "kr": "A/C",
+      "zone": "util"
+    },
+    {
+      "id": "table_e",
+      "kr": "테이블",
+      "zone": "util"
+    },
+    {
+      "id": "load_tbl",
+      "kr": "적재 TABLE",
+      "zone": "util"
+    }
+  ],
+  "skipped": [
+    "wet_recv",
+    "psr_in",
+    "psr_lvl",
+    "psr_recv",
+    "df_in",
+    "df_lvl",
+    "df_recv",
+    "ldi_room",
+    "mixing",
+    "cleanrm",
+    "psr_dev",
+    "psr_dev_in",
+    "tunnel_rv"
+  ],
+  "failed": [],
+  "out_usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "out_bytes": 58118
+}

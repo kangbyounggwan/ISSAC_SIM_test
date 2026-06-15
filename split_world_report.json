@@ -1,0 +1,197 @@
+{
+  "out": {
+    "world_base": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\world_base.usd",
+      "stripped": [
+        [
+          "/World/Dadong/F2/Equip",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Conveyors",
+          true
+        ],
+        [
+          "/World/Dadong/F2/PCBStacks",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Levelers",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Developers",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Models",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Labels",
+          true
+        ],
+        [
+          "/World/Lighting",
+          true
+        ],
+        [
+          "/World/RenderCamWide",
+          true
+        ],
+        [
+          "/World/RenderCam",
+          true
+        ],
+        [
+          "/World/FloorCam",
+          true
+        ],
+        [
+          "/World/LevelerCam",
+          true
+        ],
+        [
+          "/World/DevCam",
+          true
+        ],
+        [
+          "/World/Robots",
+          true
+        ]
+      ],
+      "prototypes_removed": 688,
+      "bytes": 22828
+    },
+    "world_equipment": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\world_equipment.usd",
+      "copied": [
+        [
+          "/World/Dadong/F2/Equip",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Conveyors",
+          true
+        ],
+        [
+          "/World/Dadong/F2/PCBStacks",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Levelers",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Developers",
+          true
+        ],
+        [
+          "/World/Dadong/F2/Models",
+          true
+        ]
+      ],
+      "bytes": 41904
+    },
+    "world_labels": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\world_labels.usda",
+      "copied": [
+        [
+          "/World/Dadong/F2/Labels",
+          true
+        ]
+      ],
+      "bytes": 26704
+    },
+    "world_staging": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\world_staging.usda",
+      "copied": [
+        [
+          "/World/Lighting",
+          true
+        ],
+        [
+          "/World/RenderCamWide",
+          true
+        ],
+        [
+          "/World/RenderCam",
+          true
+        ],
+        [
+          "/World/FloorCam",
+          true
+        ],
+        [
+          "/World/LevelerCam",
+          true
+        ],
+        [
+          "/World/DevCam",
+          true
+        ]
+      ],
+      "bytes": 4143
+    },
+    "world_robots": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\world_robots.usda",
+      "robots": [
+        {
+          "name": "Atlas_1",
+          "ref": "C:/tmp/atlas-mujoco/atlas_clean.usd"
+        },
+        {
+          "name": "H1_1",
+          "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd"
+        },
+        {
+          "name": "Atlas_2",
+          "ref": "C:/tmp/atlas-mujoco/atlas_clean.usd"
+        },
+        {
+          "name": "H1_2",
+          "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd"
+        }
+      ],
+      "bytes": 1403
+    },
+    "root": {
+      "path": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+      "subLayers": [
+        "./world_staging.usda",
+        "./world_labels.usda",
+        "./world_equipment.usd",
+        "./world_robots.usda",
+        "./world_base.usd"
+      ],
+      "defaultPrim": "World",
+      "bytes": 759
+    }
+  },
+  "notes": [],
+  "src": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.flat.usd",
+  "src_default_prim": "World",
+  "robot_ops": {
+    "Atlas_1": {
+      "xformOp:translate": "(42.5, 14.5, 7.0234499860554935)",
+      "xformOp:rotateZ": "235.0",
+      "xformOpOrder": "[xformOp:translate, xformOp:rotateZ]"
+    },
+    "H1_1": {
+      "xformOp:translate": "(39.5, 13, 7.119200018048287)",
+      "xformOp:rotateZ": "200.0",
+      "xformOpOrder": "[xformOp:translate, xformOp:rotateZ]"
+    },
+    "Atlas_2": {
+      "xformOp:translate": "(41.5, 18, 7.0234499860554935)",
+      "xformOp:rotateZ": "255.0",
+      "xformOpOrder": "[xformOp:translate, xformOp:rotateZ]"
+    },
+    "H1_2": {
+      "xformOp:translate": "(42.5, 11.5, 7.119200018048287)",
+      "xformOp:rotateZ": "215.0",
+      "xformOpOrder": "[xformOp:translate, xformOp:rotateZ]"
+    }
+  },
+  "backup": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.flat.usd"
+}

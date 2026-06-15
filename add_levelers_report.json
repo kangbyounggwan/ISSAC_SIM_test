@@ -1,0 +1,41 @@
+{
+  "levelers": [
+    {
+      "id": "psr_lvl",
+      "kr": "PSR 정면기",
+      "center": [
+        57.75,
+        26.25
+      ],
+      "L": 10.5,
+      "D": 1.8,
+      "prefix": "/World/Dadong/F2/Levelers/psr_lvl"
+    },
+    {
+      "id": "df_lvl",
+      "kr": "DF 정면기",
+      "center": [
+        49.25,
+        17.25
+      ],
+      "L": 11.0,
+      "D": 1.8,
+      "prefix": "/World/Dadong/F2/Levelers/df_lvl"
+    }
+  ],
+  "deleted": [
+    "/World/Dadong/F2/Equip/psr_lvl",
+    "/World/Dadong/F2/Equip/df_lvl"
+  ],
+  "leveler_cam_eye": [
+    44.7,
+    6.3,
+    12.6
+  ],
+  "out_usd": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "out_bytes": 24658294,
+  "rendered": [
+    "C:\\Users\\USER\\ISSAC_SIM_test\\render_leveler",
+    "C:\\Users\\USER\\ISSAC_SIM_test\\render_leveler_top"
+  ]
+}

@@ -1,0 +1,44 @@
+#usda 1.0
+
+over "World"
+{
+    def Xform "Robots"
+    {
+        def Xform "Atlas_1" (
+            prepend references = @C:/tmp/atlas-mujoco/atlas_clean.usd@
+        )
+        {
+            float xformOp:rotateZ = 235
+            double3 xformOp:translate = (42.5, 14.5, 7.0234499860554935)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "H1_1" (
+            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd@
+        )
+        {
+            float xformOp:rotateZ = 200
+            double3 xformOp:translate = (39.5, 13, 7.119200018048287)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "Atlas_2" (
+            prepend references = @C:/tmp/atlas-mujoco/atlas_clean.usd@
+        )
+        {
+            float xformOp:rotateZ = 255
+            double3 xformOp:translate = (41.5, 18, 7.0234499860554935)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "H1_2" (
+            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd@
+        )
+        {
+            float xformOp:rotateZ = 215
+            double3 xformOp:translate = (42.5, 11.5, 7.119200018048287)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+    }
+}
+

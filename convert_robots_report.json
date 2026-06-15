@@ -1,0 +1,36 @@
+{
+  "patch_refs": {
+    "atlas": 30,
+    "h1": 21
+  },
+  "robots": {
+    "atlas": {
+      "status": true,
+      "robot_path": "/atlas/root_joint",
+      "root": "/atlas",
+      "mesh_prims": 54,
+      "total_points": 31643,
+      "bbox_size": [
+        0.624,
+        2.131,
+        1.991
+      ],
+      "out": "C:\\tmp\\atlas-mujoco\\atlas_clean.usd",
+      "out_bytes": 313131
+    },
+    "h1": {
+      "status": true,
+      "robot_path": "/h1_description/root_joint",
+      "root": "/h1_description",
+      "mesh_prims": 42,
+      "total_points": 2074590,
+      "bbox_size": [
+        0.391,
+        0.556,
+        1.806
+      ],
+      "out": "C:\\tmp\\unitree_ros\\robots\\h1_description\\h1_clean.usd",
+      "out_bytes": 24294252
+    }
+  }
+}
