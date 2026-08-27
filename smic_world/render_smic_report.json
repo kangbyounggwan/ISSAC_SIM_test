@@ -1,0 +1,17 @@
+{
+  "root": "C:\\Users\\USER\\ISSAC_SIM_test\\smic_world\\smic_world.usd",
+  "renders": [
+    {
+      "camera": "/World/R1Cam",
+      "dir": "C:\\Users\\USER\\ISSAC_SIM_test\\smic_world\\render_smic\\R1Cam"
+    },
+    {
+      "camera": "/World/TopCam",
+      "dir": "C:\\Users\\USER\\ISSAC_SIM_test\\smic_world\\render_smic\\TopCam"
+    },
+    {
+      "camera": "/World/ConceptCam",
+      "dir": "C:\\Users\\USER\\ISSAC_SIM_test\\smic_world\\render_smic\\ConceptCam"
+    }
+  ]
+}

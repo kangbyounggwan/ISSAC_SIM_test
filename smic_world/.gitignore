@@ -1,0 +1,6 @@
+# 내보내기 산출물(재생성 가능, 최대 91MB)
+export/*.obj
+export/*.mtl
+export/*.png
+
+# assets/*.usd 는 **커밋한다** — 월드가 reference 로 물고 있어 없으면 합성이 깨진다.

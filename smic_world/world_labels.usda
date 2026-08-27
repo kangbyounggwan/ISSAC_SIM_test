@@ -1,0 +1,289 @@
+#usda 1.0
+
+over "World"
+{
+    over "Cell"
+    {
+        def Scope "Labels"
+        {
+            def Xform "CO_GANTRY" (
+                customData = {
+                    string anchor = "GANTRY"
+                    string body = """레이저 베드에서 커팅 완료 판재를 진공 리프터로 픽업
+슬라이드 고측(상단)에 적재 → 이후 중력으로 1개씩 하강
+스팬 9.5 m 문형, 브리지 하단 3.9 m (설비 상부 통과)"""
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "겐트리 로더"
+                }
+            )
+            {
+                double3 xformOp:translate = (5.15, 10.4, 5)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "CO_SLIDE" (
+                customData = {
+                    string anchor = "SLIDE"
+                    string body = """중력 기반 슬라이드
+커팅된 제품이 1개씩 내려와 로봇이 Pick"""
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "커팅 제품 슬라이드 (2라인)"
+                }
+            )
+            {
+                double3 xformOp:translate = (8.6, 7.35, 2.35)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "CO_R1" (
+                customData = {
+                    string anchor = "SORT_TABLE"
+                    string body = """빈 박스 반출 및 적재
+슬라이드에서 내려온 제품을 분류 테이블의 각 박스에 적재
+(양손으로 서로 다른 제품 적재)"""
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "로봇 #1 역할"
+                }
+            )
+            {
+                double3 xformOp:translate = (8.6, 5.95, 1.8800000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "CO_RACK" (
+                customData = {
+                    string anchor = "EMPTY_RACK"
+                    string body = "분류 완료 후 빈 박스를 로봇 #1이 이동 및 보관"
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "빈 박스 보관"
+                }
+            )
+            {
+                double3 xformOp:translate = (11.6, 9.2, 2.75)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "CO_R2" (
+                customData = {
+                    string anchor = "PRESS"
+                    string body = """프레스 대기 제품을 Press M/C에 투입
+Press 작업 수행
+완제품 박스 적재
+제품 #1, #2 완료 박스 → AMR Port로 이송
+Press 완료 박스 → AMR Port(Press)로 이송"""
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "로봇 #2 역할"
+                }
+            )
+            {
+                double3 xformOp:translate = (15.6, 9.2, 4.300000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "CO_PRESS_OUT" (
+                customData = {
+                    string anchor = "PRESS_OUT"
+                    string body = ""
+                    string source = "KETI 컨셉(안) 캡처 판독 — 원본 슬라이드로 검증 필요"
+                    string title = "Press 완료 제품 적재"
+                }
+            )
+            {
+                double3 xformOp:translate = (18.4, 7.4, 1.8800000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Scope "StandSpots"
+            {
+                def Xform "R1_SLIDE_L" (
+                    customData = {
+                        double clearance_m = 0.275
+                        string desc = "슬라이드 좌레인 픽"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (8.26, 7.574999999999999, 1.05)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (8.26, 6.825, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R1_SLIDE_R" (
+                    customData = {
+                        double clearance_m = 0.275
+                        string desc = "슬라이드 우레인 픽"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (8.94, 7.574999999999999, 1.05)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (8.94, 6.825, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R1_SORT_0" (
+                    customData = {
+                        double clearance_m = 0.35
+                        string desc = "분류 테이블 제품 #1"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (7.8, 5.95, 0.78)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (7.8, 6.7, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R1_SORT_1" (
+                    customData = {
+                        double clearance_m = 0.35
+                        string desc = "분류 테이블 제품 #2"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (8.6, 5.95, 0.78)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (8.6, 6.7, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R1_SORT_2" (
+                    customData = {
+                        double clearance_m = 0.35
+                        string desc = "분류 테이블 프레스 대기"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (9.4, 5.95, 0.78)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (9.4, 6.7, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R1_RACK" (
+                    customData = {
+                        double clearance_m = 0.3
+                        string desc = "빈 박스 랙"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (11.6, 9.2, 0.85)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (11.6, 8.45, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_PRESS" (
+                    customData = {
+                        double clearance_m = 0.25
+                        string desc = "프레스 다이 투입/취출"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (15.6, 8.5, 1.05)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (15.6, 7.75, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_OUT_0" (
+                    customData = {
+                        double clearance_m = 0.35
+                        string desc = "Press 완료 적재대 1"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (18, 7.4, 0.78)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (18, 6.65, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_OUT_1" (
+                    customData = {
+                        double clearance_m = 0.35
+                        string desc = "Press 완료 적재대 2"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (18.8, 7.4, 0.78)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = 90
+                    double3 xformOp:translate = (18.8, 6.65, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_AMR_P1" (
+                    customData = {
+                        double clearance_m = 0.275
+                        string desc = "AMR Port 제품 #1"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (12, 3.4, 0.72)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (12, 4.15, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_AMR_P2" (
+                    customData = {
+                        double clearance_m = 0.275
+                        string desc = "AMR Port 제품 #2"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (14.9, 3.4, 0.72)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (14.9, 4.15, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+
+                def Xform "R2_AMR_PR" (
+                    customData = {
+                        double clearance_m = 0.275
+                        string desc = "AMR Port Press"
+                        double reach_m = 0.75
+                        bool reach_ok = 1
+                        double3 target = (17.8, 3.4, 0.72)
+                    }
+                )
+                {
+                    float xformOp:rotateZ = -90
+                    double3 xformOp:translate = (17.8, 4.15, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                }
+            }
+
+            def Scope "TaskFlow" (
+                customData = {
+                    string steps = '[{"id": "T1", "from": "LASER_CUT", "to": "GANTRY", "desc": "레이저 커팅 완료 판재를 겐트리 진공 리프터가 베드에서 픽업"}, {"id": "T2", "from": "GANTRY", "to": "SLIDE", "desc": "겐트리가 슬라이드 고측에 적재 → 중력으로 1장씩 하강"}, {"id": "T3", "from": "SLIDE", "to": "SORT_TABLE", "desc": "로봇#1: 슬라이드 픽 → 제품#1/#2/프레스대기 박스 분류 적재"}, {"id": "T4", "from": "EMPTY_RACK", "to": "SORT_TABLE", "desc": "로봇#1: 빈 박스 공급 / 가득 찬 박스 회수"}, {"id": "T5", "from": "SORT_TABLE", "to": "PRESS", "desc": "로봇#2: 프레스 대기 제품 → Press M/C 투입"}, {"id": "T6", "from": "PRESS", "to": "PRESS_OUT", "desc": "로봇#2: Press 완료품 취출 → 완료 적재대 박스"}, {"id": "T7", "from": "SORT_TABLE", "to": "AMR_PORT_P1", "desc": "로봇#2: 제품#1 완료 박스 → AMR Port(제품#1)"}, {"id": "T8", "from": "SORT_TABLE", "to": "AMR_PORT_P2", "desc": "로봇#2: 제품#2 완료 박스 → AMR Port(제품#2)"}, {"id": "T9", "from": "PRESS_OUT", "to": "AMR_PORT_PR", "desc": "로봇#2: Press 완료 박스 → AMR Port(Press)"}]'
+                }
+            )
+            {
+            }
+        }
+    }
+}
+

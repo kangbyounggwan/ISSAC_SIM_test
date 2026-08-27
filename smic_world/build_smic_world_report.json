@@ -1,0 +1,424 @@
+{
+  "stations": [
+    {
+      "id": "LASER_CUT",
+      "cls": "laser_cutter",
+      "name": "레이저 커팅기",
+      "center": [
+        3.4,
+        9.0
+      ],
+      "size": [
+        5.2,
+        4.4,
+        1.8
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        0.8,
+        6.8,
+        6.0,
+        11.2
+      ]
+    },
+    {
+      "id": "GANTRY",
+      "cls": "gantry_loader",
+      "name": "겐트리 로더(레이저→슬라이드)",
+      "center": [
+        5.15,
+        10.4
+      ],
+      "size": [
+        9.5,
+        0.6,
+        3.9
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        0.4,
+        10.1,
+        9.9,
+        10.7
+      ]
+    },
+    {
+      "id": "SLIDE",
+      "cls": "gravity_slide",
+      "name": "커팅 제품 슬라이드(2라인)",
+      "center": [
+        8.6,
+        7.35
+      ],
+      "size": [
+        1.55,
+        3.8,
+        1.25
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        7.82,
+        7.1,
+        9.38,
+        11.15
+      ]
+    },
+    {
+      "id": "SORT_TABLE",
+      "cls": "box_table",
+      "name": "분류 테이블",
+      "center": [
+        8.6,
+        5.95
+      ],
+      "size": [
+        2.45,
+        0.8,
+        0.78
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        7.38,
+        5.55,
+        9.82,
+        6.35
+      ]
+    },
+    {
+      "id": "EMPTY_RACK",
+      "cls": "box_rack",
+      "name": "빈 박스 보관",
+      "center": [
+        11.6,
+        9.2
+      ],
+      "size": [
+        1.3,
+        0.9,
+        1.65
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        10.95,
+        8.75,
+        12.25,
+        9.65
+      ]
+    },
+    {
+      "id": "PRESS",
+      "cls": "press",
+      "name": "PRESS M/C",
+      "center": [
+        15.6,
+        9.2
+      ],
+      "size": [
+        2.8,
+        2.4,
+        3.2
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        14.2,
+        8.0,
+        17.0,
+        10.4
+      ]
+    },
+    {
+      "id": "PRESS_OUT",
+      "cls": "box_table",
+      "name": "Press 완료 제품 적재",
+      "center": [
+        18.4,
+        7.4
+      ],
+      "size": [
+        1.7,
+        0.8,
+        0.78
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        17.55,
+        7.0,
+        19.25,
+        7.8
+      ]
+    },
+    {
+      "id": "AMR_PORT_P1",
+      "cls": "amr_port",
+      "name": "AMR Port (제품 #1)",
+      "center": [
+        12.0,
+        3.4
+      ],
+      "size": [
+        1.25,
+        0.95,
+        0.72
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        11.38,
+        2.92,
+        12.62,
+        3.88
+      ]
+    },
+    {
+      "id": "AMR_PORT_P2",
+      "cls": "amr_port",
+      "name": "AMR Port (제품 #2)",
+      "center": [
+        14.9,
+        3.4
+      ],
+      "size": [
+        1.25,
+        0.95,
+        0.72
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        14.28,
+        2.92,
+        15.53,
+        3.88
+      ]
+    },
+    {
+      "id": "AMR_PORT_PR",
+      "cls": "amr_port",
+      "name": "AMR Port (Press)",
+      "center": [
+        17.8,
+        3.4
+      ],
+      "size": [
+        1.25,
+        0.95,
+        0.72
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        17.18,
+        2.92,
+        18.43,
+        3.88
+      ]
+    },
+    {
+      "id": "AMR_1",
+      "cls": "amr",
+      "name": "AMR #1",
+      "center": [
+        12.0,
+        2.15
+      ],
+      "size": [
+        0.95,
+        0.65,
+        0.32
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        11.53,
+        1.82,
+        12.47,
+        2.48
+      ]
+    },
+    {
+      "id": "AMR_2",
+      "cls": "amr",
+      "name": "AMR #2",
+      "center": [
+        14.9,
+        2.15
+      ],
+      "size": [
+        0.95,
+        0.65,
+        0.32
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        14.43,
+        1.82,
+        15.38,
+        2.48
+      ]
+    },
+    {
+      "id": "AMR_3",
+      "cls": "amr",
+      "name": "AMR #3",
+      "center": [
+        17.8,
+        2.15
+      ],
+      "size": [
+        0.95,
+        0.65,
+        0.32
+      ],
+      "yaw": 0.0,
+      "bbox_xy": [
+        17.32,
+        1.82,
+        18.28,
+        2.48
+      ]
+    }
+  ],
+  "counts": {
+    "lane_segments": 8,
+    "stations": 13,
+    "chute_lowfriction_bindings": 4,
+    "fence_panels": 13,
+    "containers": 11,
+    "plates": 16,
+    "callouts": 6,
+    "stand_spots": 12
+  },
+  "notes": [],
+  "gantry": {
+    "pick": [
+      3.4,
+      10.4,
+      0.55
+    ],
+    "drop": [
+      8.6,
+      10.4,
+      2.02
+    ],
+    "bridge_z": 3.9
+  },
+  "reach": [
+    {
+      "id": "R1_SLIDE_L",
+      "reach_m": 0.75,
+      "clearance_m": 0.275,
+      "ok": true
+    },
+    {
+      "id": "R1_SLIDE_R",
+      "reach_m": 0.75,
+      "clearance_m": 0.275,
+      "ok": true
+    },
+    {
+      "id": "R1_SORT_0",
+      "reach_m": 0.75,
+      "clearance_m": 0.35,
+      "ok": true
+    },
+    {
+      "id": "R1_SORT_1",
+      "reach_m": 0.75,
+      "clearance_m": 0.35,
+      "ok": true
+    },
+    {
+      "id": "R1_SORT_2",
+      "reach_m": 0.75,
+      "clearance_m": 0.35,
+      "ok": true
+    },
+    {
+      "id": "R1_RACK",
+      "reach_m": 0.75,
+      "clearance_m": 0.3,
+      "ok": true
+    },
+    {
+      "id": "R2_PRESS",
+      "reach_m": 0.75,
+      "clearance_m": 0.25,
+      "ok": true
+    },
+    {
+      "id": "R2_OUT_0",
+      "reach_m": 0.75,
+      "clearance_m": 0.35,
+      "ok": true
+    },
+    {
+      "id": "R2_OUT_1",
+      "reach_m": 0.75,
+      "clearance_m": 0.35,
+      "ok": true
+    },
+    {
+      "id": "R2_AMR_P1",
+      "reach_m": 0.75,
+      "clearance_m": 0.275,
+      "ok": true
+    },
+    {
+      "id": "R2_AMR_P2",
+      "reach_m": 0.75,
+      "clearance_m": 0.275,
+      "ok": true
+    },
+    {
+      "id": "R2_AMR_PR",
+      "reach_m": 0.75,
+      "clearance_m": 0.275,
+      "ok": true
+    }
+  ],
+  "robots": [
+    {
+      "name": "Robot_1",
+      "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda",
+      "ok": true,
+      "xy": [
+        8.6,
+        6.7
+      ],
+      "yaw": -90.0,
+      "z_offset": 1.0442,
+      "clearance_m": 0.35
+    },
+    {
+      "name": "Robot_2",
+      "ref": "C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda",
+      "ok": true,
+      "xy": [
+        15.6,
+        7.75
+      ],
+      "yaw": 90.0,
+      "z_offset": 1.0442,
+      "clearance_m": 0.25
+    }
+  ],
+  "cameras": [
+    "/World/ConceptCam",
+    "/World/TopCam",
+    "/World/R1Cam",
+    "/World/R2Cam"
+  ],
+  "root": "C:\\Users\\USER\\ISSAC_SIM_test\\smic_world\\smic_world.usd",
+  "layers": {
+    "base": 3528,
+    "equipment": 19136,
+    "products": 77522,
+    "labels": 12713,
+    "robots": 1141,
+    "staging": 4043
+  },
+  "saved": [
+    "world_staging.usda",
+    "world_labels.usda",
+    "world_products.usda",
+    "world_equipment.usd",
+    "world_robots.usda",
+    "world_base.usd"
+  ]
+}

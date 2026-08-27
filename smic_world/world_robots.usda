@@ -1,0 +1,34 @@
+#usda 1.0
+
+over "World"
+{
+    def Xform "Robots"
+    {
+        def Xform "Robot_1" (
+            customData = {
+                string role = "슬라이드 픽 → 분류 테이블 적재 / 빈 박스 반출·적재"
+                double2 stand_xy = (8.6, 6.7)
+            }
+            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda@
+        )
+        {
+            float xformOp:rotateZ = -90
+            double3 xformOp:translate = (8.6, 6.7, 1.0442000180482864)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "Robot_2" (
+            customData = {
+                string role = "프레스 투입·작업 / 완료 박스 적재 → AMR Port 이송"
+                double2 stand_xy = (15.6, 7.75)
+            }
+            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda@
+        )
+        {
+            float xformOp:rotateZ = 90
+            double3 xformOp:translate = (15.6, 7.75, 1.0442000180482864)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+    }
+}
+

@@ -1,0 +1,109 @@
+#usda 1.0
+
+over "World"
+{
+    def "Lighting"
+    {
+        def DistantLight "Sun"
+        {
+            float inputs:angle = 0.53
+            float inputs:intensity = 1600
+            float3 xformOp:rotateXYZ = (-48, 0, 28)
+            uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+        }
+
+        def DomeLight "Sky"
+        {
+            float inputs:intensity = 300
+        }
+
+        def RectLight "Bay_0"
+        {
+            color3f inputs:color = (1, 0.98, 0.94)
+            float inputs:height = 4
+            float inputs:intensity = 2600
+            float inputs:width = 6
+            float3 xformOp:rotateXYZ = (180, 0, 0)
+            double3 xformOp:translate = (5.5, 5, 5.4)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+        }
+
+        def RectLight "Bay_1"
+        {
+            color3f inputs:color = (1, 0.98, 0.94)
+            float inputs:height = 4
+            float inputs:intensity = 2600
+            float inputs:width = 6
+            float3 xformOp:rotateXYZ = (180, 0, 0)
+            double3 xformOp:translate = (5.5, 11, 5.4)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+        }
+
+        def RectLight "Bay_2"
+        {
+            color3f inputs:color = (1, 0.98, 0.94)
+            float inputs:height = 4
+            float inputs:intensity = 2600
+            float inputs:width = 6
+            float3 xformOp:rotateXYZ = (180, 0, 0)
+            double3 xformOp:translate = (16.5, 5, 5.4)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+        }
+
+        def RectLight "Bay_3"
+        {
+            color3f inputs:color = (1, 0.98, 0.94)
+            float inputs:height = 4
+            float inputs:intensity = 2600
+            float inputs:width = 6
+            float3 xformOp:rotateXYZ = (180, 0, 0)
+            double3 xformOp:translate = (16.5, 11, 5.4)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+        }
+    }
+
+    def Camera "ConceptCam"
+    {
+        float2 clippingRange = (0.05, 3000)
+        float focalLength = 16
+        float focusDistance = 21.116108
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (0.9996539193528472, -0.026306682088232818, 0, 0), (0.011461462493171568, 0.4355355747405196, 0.900098549056137, 0), (-0.023678606378099425, -0.8997870423677782, 0.4356863573570294, 0), (10.5, -11.5, 10, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "TopCam"
+    {
+        float2 clippingRange = (0.05, 3000)
+        float focalLength = 24
+        float focusDistance = 26
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (11, 7.5, 26, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "R1Cam"
+    {
+        float2 clippingRange = (0.05, 3000)
+        float focalLength = 28
+        float focusDistance = 4.6108565
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (0.8027438479544529, -0.5963240013375933, 0, 0), (0.1939956172688906, 0.2611479463235067, 0.9456042780209261, 0), (-0.5638865267513848, -0.7590780167807106, 0.3253191500488759, 0), (6, 4.1, 2.6, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def Camera "R2Cam"
+    {
+        float2 clippingRange = (0.05, 3000)
+        float focalLength = 28
+        float focusDistance = 5.5326304
+        float horizontalAperture = 20.955
+        float verticalAperture = 11.787188
+        matrix4d xformOp:transform = ( (0.8262273428075477, -0.5633368246415097, 0, 0), (0.1527311900562439, 0.2240057454158244, 0.9625458999989063, 0), (-0.542237550877088, -0.7952817412863958, 0.27111877543854396, 0), (12.6, 4.75, 2.8, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+}
+
