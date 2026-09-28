@@ -1,0 +1,110 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../../jm_factory_world_atlas_h1.usd@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "Robots" (
+        active = false
+    )
+    {
+    }
+
+    over "Graphs" (
+        active = false
+    )
+    {
+    }
+
+    over "Dadong"
+    {
+        over "Roof"
+        {
+            token visibility
+        }
+    }
+
+    def Xform "H1Fleet" (
+        customData = {
+            dictionary jm = {
+                string controller = "frozen WB5 walker + learned rack navigation"
+            }
+        }
+    )
+    {
+        def Xform "H1_1" (
+            customData = {
+                dictionary jm = {
+                    double2 goalXY = (36.175000000000004, 18.254999992847445)
+                    string originalRobot = "H1_1"
+                    string rack = "/World/Dadong/F2/Products/RACK_cont_008"
+                    string slot = "slot_1"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_standalone.usd@
+        )
+        {
+            float xformOp:rotateZ = 90
+            double3 xformOp:translate = (36.175000000000004, 17.054999992847446, 7.055)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "H1_3" (
+            customData = {
+                dictionary jm = {
+                    double2 goalXY = (38.425, 18.254999992847445)
+                    string originalRobot = "Atlas_1"
+                    string rack = "/World/Dadong/F2/Products/RACK_cont_009"
+                    string slot = "slot_2"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_standalone.usd@
+        )
+        {
+            float xformOp:rotateZ = 90
+            double3 xformOp:translate = (38.425, 17.054999992847446, 7.055)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "H1_2" (
+            customData = {
+                dictionary jm = {
+                    double2 goalXY = (48.57499999999999, 18.254999992847445)
+                    string originalRobot = "H1_2"
+                    string rack = "/World/Dadong/F2/Products/RACK_cont_000"
+                    string slot = "slot_3"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_standalone.usd@
+        )
+        {
+            float xformOp:rotateZ = 90
+            double3 xformOp:translate = (48.57499999999999, 17.054999992847446, 7.055)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+
+        def Xform "H1_4" (
+            customData = {
+                dictionary jm = {
+                    double2 goalXY = (28.224999999999998, 18.254999992847445)
+                    string originalRobot = "Atlas_2"
+                    string rack = "/World/Dadong/F2/Products/RACK_cont_015"
+                    string slot = "slot_4"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_standalone.usd@
+        )
+        {
+            float xformOp:rotateZ = 90
+            double3 xformOp:translate = (28.224999999999998, 17.054999992847446, 7.055)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+        }
+    }
+}
+

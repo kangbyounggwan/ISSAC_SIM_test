@@ -1,0 +1,10 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @jm_h1_ring_pickplace/assets/jm_world_h1_ring_pickplace.usda@
+    ]
+    upAxis = "Z"
+)
+

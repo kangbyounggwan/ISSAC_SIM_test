@@ -1,0 +1,60 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../../jm_coop4_rl/assets/jm_world_h1_fleet.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "H1Fleet"
+    {
+        over "H1_1" (
+            customData = {
+                dictionary jm = {
+                    string gripperAsset = "2F-85 dual-mimic physical pad12"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd@
+        )
+        {
+        }
+
+        over "H1_2" (
+            customData = {
+                dictionary jm = {
+                    string gripperAsset = "2F-85 dual-mimic physical pad12"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd@
+        )
+        {
+        }
+
+        over "H1_3" (
+            customData = {
+                dictionary jm = {
+                    string gripperAsset = "2F-85 dual-mimic physical pad12"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd@
+        )
+        {
+        }
+
+        over "H1_4" (
+            customData = {
+                dictionary jm = {
+                    string gripperAsset = "2F-85 dual-mimic physical pad12"
+                }
+            }
+            prepend references = @../../jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd@
+        )
+        {
+        }
+    }
+}
+

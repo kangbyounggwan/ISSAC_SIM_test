@@ -1,0 +1,691 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../../jm_coop4_rl/assets/jm_world_h1_fleet.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    def Xform "JMRingWorkcells"
+    {
+        def Material "FixtureMaterial" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+
+        def Xform "H1_1"
+        {
+            custom rel jm:rack = </World/Dadong/F2/Products/RACK_cont_008>
+            custom rel jm:robot = </World/H1Fleet/H1_1>
+
+            def Cube "CantileverPlate" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.25, 0.29, 0.32)]
+                double size = 1
+                float3 xformOp:scale = (0.37, 0.32, 0.03)
+                double3 xformOp:translate = (35.88, 18.784999992847446, 7.050000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_0" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (35.720000000000006, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (36.040000000000006, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickZone"
+            {
+                color3f[] primvars:displayColor = [(0.1, 0.55, 0.25)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (35.955000000000005, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (35.955000000000005, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (35.955000000000005, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PickTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center pick"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (35.955000000000005, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cube "PlaceZone"
+            {
+                color3f[] primvars:displayColor = [(0.78, 0.29, 0.13)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (35.80500000000001, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (35.80500000000001, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (35.80500000000001, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PlaceTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center place"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (35.80500000000001, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Ring" (
+                customData = {
+                    dictionary jm = {
+                        string assignedRobot = "H1_1"
+                        string task = "physical ring pick-and-place; motion not yet validated"
+                    }
+                }
+                prepend references = @ring_od140_id80_t30_m200g.usda@
+            )
+            {
+                double3 xformOp:translate = (35.955000000000005, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "H1_3"
+        {
+            custom rel jm:rack = </World/Dadong/F2/Products/RACK_cont_009>
+            custom rel jm:robot = </World/H1Fleet/H1_3>
+
+            def Cube "CantileverPlate" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.25, 0.29, 0.32)]
+                double size = 1
+                float3 xformOp:scale = (0.37, 0.32, 0.03)
+                double3 xformOp:translate = (38.129999999999995, 18.784999992847446, 7.050000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_0" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (37.97, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (38.29, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickZone"
+            {
+                color3f[] primvars:displayColor = [(0.1, 0.55, 0.25)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (38.205, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (38.205, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (38.205, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PickTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center pick"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (38.205, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cube "PlaceZone"
+            {
+                color3f[] primvars:displayColor = [(0.78, 0.29, 0.13)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (38.055, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (38.055, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (38.055, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PlaceTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center place"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (38.055, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Ring" (
+                customData = {
+                    dictionary jm = {
+                        string assignedRobot = "H1_3"
+                        string task = "physical ring pick-and-place; motion not yet validated"
+                    }
+                }
+                prepend references = @ring_od140_id80_t30_m200g.usda@
+            )
+            {
+                double3 xformOp:translate = (38.205, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "H1_2"
+        {
+            custom rel jm:rack = </World/Dadong/F2/Products/RACK_cont_000>
+            custom rel jm:robot = </World/H1Fleet/H1_2>
+
+            def Cube "CantileverPlate" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.25, 0.29, 0.32)]
+                double size = 1
+                float3 xformOp:scale = (0.37, 0.32, 0.03)
+                double3 xformOp:translate = (48.27999999999999, 18.784999992847446, 7.050000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_0" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (48.11999999999999, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (48.43999999999999, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickZone"
+            {
+                color3f[] primvars:displayColor = [(0.1, 0.55, 0.25)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (48.35499999999999, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (48.35499999999999, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (48.35499999999999, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PickTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center pick"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (48.35499999999999, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cube "PlaceZone"
+            {
+                color3f[] primvars:displayColor = [(0.78, 0.29, 0.13)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (48.20499999999999, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (48.20499999999999, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (48.20499999999999, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PlaceTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center place"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (48.20499999999999, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Ring" (
+                customData = {
+                    dictionary jm = {
+                        string assignedRobot = "H1_2"
+                        string task = "physical ring pick-and-place; motion not yet validated"
+                    }
+                }
+                prepend references = @ring_od140_id80_t30_m200g.usda@
+            )
+            {
+                double3 xformOp:translate = (48.35499999999999, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "H1_4"
+        {
+            custom rel jm:rack = </World/Dadong/F2/Products/RACK_cont_015>
+            custom rel jm:robot = </World/H1Fleet/H1_4>
+
+            def Cube "CantileverPlate" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.25, 0.29, 0.32)]
+                double size = 1
+                float3 xformOp:scale = (0.37, 0.32, 0.03)
+                double3 xformOp:translate = (27.929999999999996, 18.784999992847446, 7.050000000000001)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_0" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (27.77, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "RackBracket_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.35, 0.38, 0.4)]
+                double size = 1
+                float3 xformOp:scale = (0.035, 0.06, 0.1)
+                double3 xformOp:translate = (28.089999999999996, 18.919999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickZone"
+            {
+                color3f[] primvars:displayColor = [(0.1, 0.55, 0.25)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (28.005, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (28.005, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PickRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (28.005, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PickTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center pick"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (28.005, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cube "PlaceZone"
+            {
+                color3f[] primvars:displayColor = [(0.78, 0.29, 0.13)]
+                double size = 1
+                float3 xformOp:scale = (0.14, 0.29, 0.001)
+                double3 xformOp:translate = (27.854999999999997, 18.804999992847446, 7.0658)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailNear" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (27.854999999999997, 18.644999992847445, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cube "PlaceRailFar" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+            )
+            {
+                rel material:binding:physics = </World/JMRingWorkcells/FixtureMaterial>
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.75, 0.77, 0.8)]
+                double size = 1
+                float3 xformOp:scale = (0.12, 0.01, 0.03)
+                double3 xformOp:translate = (27.854999999999997, 18.704999992847448, 7.08)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Xform "PlaceTarget" (
+                customData = {
+                    dictionary jm = {
+                        string role = "product-center place"
+                    }
+                }
+            )
+            {
+                double3 xformOp:translate = (27.854999999999997, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Xform "Ring" (
+                customData = {
+                    dictionary jm = {
+                        string assignedRobot = "H1_4"
+                        string task = "physical ring pick-and-place; motion not yet validated"
+                    }
+                }
+                prepend references = @ring_od140_id80_t30_m200g.usda@
+            )
+            {
+                double3 xformOp:translate = (28.005, 18.674999992847447, 7.11)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "Cameras"
+        {
+            def Camera "Overview"
+            {
+                float2 clippingRange = (0.05, 200)
+                float focalLength = 17
+                float horizontalAperture = 20.955
+                float verticalAperture = 11.787188
+                matrix4d xformOp:transform = ( (1, 0, -0, 0), (0, 0.5975918865230166, 0.8018004347478629, 0), (0, -0.8018004347478629, 0.5975918865230166, 0), (38, 3, 19, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+
+            def Camera "H1_1_Workcell"
+            {
+                float2 clippingRange = (0.05, 200)
+                float focalLength = 16
+                float horizontalAperture = 20.955
+                float verticalAperture = 11.787188
+                matrix4d xformOp:transform = ( (0.8425221487628964, 0.53866170166808, 0, 0), (-0.2120200350519425, 0.3316210804658596, 0.9192795895304258, -0), (0.4951807080051933, -0.7745134150850479, 0.39360517815797474, 0), (37.97499999999999, 14.75499999284744, 8.574999999999998, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+
+            def Camera "RingDetail"
+            {
+                float2 clippingRange = (0.05, 200)
+                float focalLength = 28
+                float horizontalAperture = 20.955
+                float verticalAperture = 11.787188
+                matrix4d xformOp:transform = ( (0.77096175162709, 0.6368814469962909, 2.775557561562892e-17, 0), (-0.3626751719920285, 0.43902783977982457, 0.8220226733605428, -0), (0.5235309896736219, -0.6337480401312273, 0.5694547606976227, 0), (36.475, 18.004999992847445, 7.724999999999998, 1.0000000000000002) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+    }
+
+    over "Dadong"
+    {
+        over "F2"
+        {
+            over "Products"
+            {
+                over "PCB_cont_008_0" (
+                    active = false
+                )
+                {
+                }
+
+                over "PCB_cont_015_0" (
+                    active = false
+                )
+                {
+                }
+            }
+        }
+    }
+}
+

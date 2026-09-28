@@ -9,7 +9,7 @@ over "World"
                 string role = "슬라이드 픽 → 분류 테이블 적재 / 빈 박스 반출·적재"
                 double2 stand_xy = (8.6, 6.7)
             }
-            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda@
+            prepend references = @../assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda@
         )
         {
             float xformOp:rotateZ = -90
@@ -22,7 +22,7 @@ over "World"
                 string role = "프레스 투입·작업 / 완료 박스 적재 → AMR Port 이송"
                 double2 stand_xy = (15.6, 7.75)
             }
-            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_gripper.usda@
+            prepend references = @../assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda@
         )
         {
             float xformOp:rotateZ = 90

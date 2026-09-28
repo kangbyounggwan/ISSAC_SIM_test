@@ -1,0 +1,155 @@
+#usda 1.0
+(
+    defaultPrim = "h1_description"
+    doc = """H1 + virtual wrist roll(1-DOF) + Robotiq 2F-85 (both arms).
+
+    h1_clean.usd(19-DOF)를 참조하고 양팔에 다음을 추가:
+      - left/right_wrist_link: elbow_link 로컬 +X 0.28m (팔뚝 메시 끝 0.27 직후)
+      - left/right_wrist_roll_joint: 축=X(팔뚝 방향), +-180deg, 드라이브는 팔꿈치와 동일 계열
+      - left/right_gripper: Robotiq 2F-85 (플래튼 로컬 사본), rotY(90)으로 +Z(핑거)->+X 정렬
+        자체 ArticulationRootAPI 삭제 -> H1 단일 아티큘레이션으로 병합 (총 19+2x7=33 관절)
+    실기 H1에는 손목이 없음 — 시뮬 학습용 가상 손목 (jm-physical-ai 그리퍼 통합 단계)."""
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "h1_description" (
+    prepend references = @h1_clean.usd@
+)
+{
+    over "joints"
+    {
+        def PhysicsRevoluteJoint "left_wrist_roll_joint" (
+            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+        )
+        {
+            float drive:angular:physics:damping = 10
+            float drive:angular:physics:maxForce = 18
+            float drive:angular:physics:stiffness = 625
+            float drive:angular:physics:targetPosition = 0
+            uniform token drive:angular:physics:type = "acceleration"
+            uniform token physics:axis = "X"
+            rel physics:body0 = </h1_description/left_elbow_link>
+            rel physics:body1 = </h1_description/left_wrist_link>
+            point3f physics:localPos0 = (0.28, 0, 0)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+            float physics:lowerLimit = -180
+            float physics:upperLimit = 180
+        }
+
+        def PhysicsRevoluteJoint "right_wrist_roll_joint" (
+            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+        )
+        {
+            float drive:angular:physics:damping = 10
+            float drive:angular:physics:maxForce = 18
+            float drive:angular:physics:stiffness = 625
+            float drive:angular:physics:targetPosition = 0
+            uniform token drive:angular:physics:type = "acceleration"
+            uniform token physics:axis = "X"
+            rel physics:body0 = </h1_description/right_elbow_link>
+            rel physics:body1 = </h1_description/right_wrist_link>
+            point3f physics:localPos0 = (0.28, 0, 0)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (1, 0, 0, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+            float physics:lowerLimit = -180
+            float physics:upperLimit = 180
+        }
+
+        def PhysicsFixedJoint "left_gripper_mount"
+        {
+            rel physics:body0 = </h1_description/left_wrist_link>
+            rel physics:body1 = </h1_description/left_gripper/Robotiq_2F_85/base_link>
+            point3f physics:localPos0 = (0.03, 0, 0)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.7071068, 0, 0.7071068, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+        }
+
+        def PhysicsFixedJoint "right_gripper_mount"
+        {
+            rel physics:body0 = </h1_description/right_wrist_link>
+            rel physics:body1 = </h1_description/right_gripper/Robotiq_2F_85/base_link>
+            point3f physics:localPos0 = (0.03, 0, 0)
+            point3f physics:localPos1 = (0, 0, 0)
+            quatf physics:localRot0 = (0.7071068, 0, 0.7071068, 0)
+            quatf physics:localRot1 = (1, 0, 0, 0)
+        }
+    }
+
+    def Xform "left_wrist_link" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+    )
+    {
+        float physics:mass = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        double3 xformOp:translate = (0.2985, 0.21353, 0.10661)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+        def Cylinder "visual"
+        {
+            uniform token axis = "X"
+            float3[] extent = [(-0.03, -0.028, -0.028), (0.03, 0.028, 0.028)]
+            double height = 0.06
+            color3f[] primvars:displayColor = [(0.15, 0.15, 0.15)]
+            double radius = 0.028
+            double3 xformOp:translate = (0.01, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def Xform "right_wrist_link" (
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+    )
+    {
+        float physics:mass = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        double3 xformOp:translate = (0.2985, -0.21353, 0.10661)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+        def Cylinder "visual"
+        {
+            uniform token axis = "X"
+            float3[] extent = [(-0.03, -0.028, -0.028), (0.03, 0.028, 0.028)]
+            double height = 0.06
+            color3f[] primvars:displayColor = [(0.15, 0.15, 0.15)]
+            double radius = 0.028
+            double3 xformOp:translate = (0.01, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+
+    def Xform "left_gripper" (
+        prepend references = @../../../robotiq_2f85/robotiq_2f85_flat.usd@
+    )
+    {
+        quatf xformOp:orient = (0.7071068, 0, 0.7071068, 0)
+        double3 xformOp:translate = (0.3285, 0.21353, 0.10661)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+        over "Robotiq_2F_85" (
+            delete apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+    }
+
+    def Xform "right_gripper" (
+        prepend references = @../../../robotiq_2f85/robotiq_2f85_flat.usd@
+    )
+    {
+        quatf xformOp:orient = (0.7071068, 0, 0.7071068, 0)
+        double3 xformOp:translate = (0.3285, -0.21353, 0.10661)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+        over "Robotiq_2F_85" (
+            delete apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+    }
+}
+

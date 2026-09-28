@@ -1,0 +1,125 @@
+{
+  "pass": true,
+  "file_count": 26,
+  "hash_failures": [],
+  "builtin_material_dependencies": [
+    {
+      "layer": "assets/vendor/unitree_ros/robots/h1_description/h1_clean.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "assets/vendor/robotiq_2f85/robotiq_2f85_flat.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "jm_wb7_pinkik/assets/h1_wb7_standalone.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "assets/vendor/atlas_mujoco/atlas_clean.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd",
+      "asset": "OmniPBR.mdl"
+    }
+  ],
+  "worlds": [
+    {
+      "entry": "jm_factory_world_atlas_h1.usd",
+      "composition_errors": [],
+      "external_layers": [],
+      "default_prim": "/World",
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "prim_count": 2223,
+      "colliders": 605,
+      "rigid_bodies": 186,
+      "joints": 166,
+      "pass": true,
+      "source_parity": {
+        "compared_attributes": 26911,
+        "maximum_transform_error": 0.0,
+        "differences": [],
+        "pass": true
+      }
+    },
+    {
+      "entry": "jm_coop4_rl/assets/jm_world_h1_fleet.usda",
+      "composition_errors": [],
+      "external_layers": [],
+      "default_prim": "/World",
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "prim_count": 6116,
+      "colliders": 785,
+      "rigid_bodies": 178,
+      "joints": 156,
+      "pass": true,
+      "source_parity": {
+        "compared_attributes": 63257,
+        "maximum_transform_error": 0.0,
+        "differences": [],
+        "pass": true
+      }
+    },
+    {
+      "entry": "jm_factory_world_h1_ring.usda",
+      "composition_errors": [],
+      "external_layers": [],
+      "default_prim": "/World",
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "prim_count": 6320,
+      "colliders": 939,
+      "rigid_bodies": 180,
+      "joints": 156,
+      "pass": true,
+      "source_parity": {
+        "compared_attributes": 67822,
+        "maximum_transform_error": 0.0,
+        "differences": [],
+        "pass": true
+      }
+    },
+    {
+      "entry": "jm_factory_world_h1_ring_physical_gripper.usda",
+      "composition_errors": [],
+      "external_layers": [],
+      "default_prim": "/World",
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "prim_count": 6332,
+      "colliders": 947,
+      "rigid_bodies": 180,
+      "joints": 156,
+      "pass": true,
+      "source_parity": {
+        "compared_attributes": 68066,
+        "maximum_transform_error": 0.0,
+        "differences": [],
+        "pass": true
+      }
+    },
+    {
+      "entry": "smic_world/smic_world.usd",
+      "composition_errors": [],
+      "external_layers": [],
+      "default_prim": "/World",
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "prim_count": 922,
+      "colliders": 254,
+      "rigid_bodies": 106,
+      "joints": 80,
+      "pass": true,
+      "source_parity": {
+        "compared_attributes": 11137,
+        "maximum_transform_error": 0.0,
+        "differences": [],
+        "pass": true
+      }
+    }
+  ],
+  "scope": "USD dependency closure, composition, scene properties; not a dynamic simulation"
+}

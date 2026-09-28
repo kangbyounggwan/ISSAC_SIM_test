@@ -5,3 +5,23 @@ __pycache__/
 
 # run logs (transient)
 *.log
+
+# Credentials and local runtime data are never part of world snapshots.
+.env
+.env.*
+*.pem
+*.key
+.aws/
+.ssh/
+.claude/
+.conda/
+wandb/
+artifacts/
+checkpoints/
+**/runs/
+*.mp4
+*.avi
+*.mkv
+*.pt
+*.pth
+*.ckpt

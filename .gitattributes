@@ -1,0 +1,11 @@
+* text=auto
+*.usd binary
+*.usdc binary
+*.usdz binary
+# USD's own exporter emits an empty final line.
+*.usda text eol=lf whitespace=-blank-at-eof
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary

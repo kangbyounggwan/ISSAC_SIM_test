@@ -5,16 +5,254 @@ over "World"
     def Xform "Robots"
     {
         def Xform "Atlas_1" (
-            prepend references = @C:/tmp/atlas-mujoco/atlas_clean.usd@
+            prepend references = @assets/vendor/atlas_mujoco/atlas_clean.usd@
         )
         {
             float xformOp:rotateZ = 235
             double3 xformOp:translate = (42.5, 14.5, 7.0234499860554935)
             uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+
+            def PhysicsFixedJoint "weld_to_world" (
+                active = false
+            )
+            {
+                rel physics:body1 = </World/Robots/Atlas_1/pelvis>
+                bool physics:jointEnabled = 1
+                point3f physics:localPos0 = (42.5, 14.5, 7.02345)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (-0.4617486, 0, 0, 0.8870108)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+
+            over "root_joint" (
+                delete apiSchemas = ["PhysicsArticulationRootAPI"]
+            )
+            {
+            }
+
+            over "world"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "pelvis"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "ltorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "mtorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "utorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_clav"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_scap"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_larm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_ufarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lfarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_hand"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_hand_force_torque"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_situational_awareness_camera_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "head"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "center_bottom_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "center_top_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "left_camera_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "left_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "hokuyo_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "head_hokuyo_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "right_camera_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "right_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_clav"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_scap"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_larm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_ufarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lfarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_hand"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_hand_force_torque"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_situational_awareness_camera_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_talus"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_foot"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_talus"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_foot"
+            {
+                bool physics:kinematicEnabled = 1
+            }
         }
 
         def Xform "H1_1" (
-            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd@
+            prepend references = @assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda@
         )
         {
             float xformOp:rotateZ = 200
@@ -23,16 +261,254 @@ over "World"
         }
 
         def Xform "Atlas_2" (
-            prepend references = @C:/tmp/atlas-mujoco/atlas_clean.usd@
+            prepend references = @assets/vendor/atlas_mujoco/atlas_clean.usd@
         )
         {
             float xformOp:rotateZ = 255
             double3 xformOp:translate = (41.5, 18, 7.0234499860554935)
             uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+
+            def PhysicsFixedJoint "weld_to_world" (
+                active = false
+            )
+            {
+                rel physics:body1 = </World/Robots/Atlas_2/pelvis>
+                bool physics:jointEnabled = 1
+                point3f physics:localPos0 = (41.5, 18, 7.02345)
+                point3f physics:localPos1 = (0, 0, 0)
+                quatf physics:localRot0 = (-0.6087614, 0, 0, 0.7933533)
+                quatf physics:localRot1 = (1, 0, 0, 0)
+            }
+
+            over "root_joint" (
+                delete apiSchemas = ["PhysicsArticulationRootAPI"]
+            )
+            {
+            }
+
+            over "world"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "pelvis"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "ltorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "mtorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "utorso"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_clav"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_scap"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_larm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_ufarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lfarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_hand"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_hand_force_torque"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_situational_awareness_camera_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "head"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "center_bottom_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "center_top_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "left_camera_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "left_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "hokuyo_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "head_hokuyo_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "right_camera_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "right_led_frame"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_clav"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_scap"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_larm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_ufarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lfarm"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_hand"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_hand_force_torque"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_situational_awareness_camera_link"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_uleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_lleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_talus"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "l_foot"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lglut"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_uleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_lleg"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_talus"
+            {
+                bool physics:kinematicEnabled = 1
+            }
+
+            over "r_foot"
+            {
+                bool physics:kinematicEnabled = 1
+            }
         }
 
         def Xform "H1_2" (
-            prepend references = @C:/tmp/unitree_ros/robots/h1_description/h1_clean.usd@
+            prepend references = @assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda@
         )
         {
             float xformOp:rotateZ = 215

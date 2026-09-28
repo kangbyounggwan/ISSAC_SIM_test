@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "roots": [
+    "jm_factory_world_atlas_h1.usd",
+    "jm_coop4_rl/assets/jm_world_h1_fleet.usda",
+    "jm_factory_world_h1_ring.usda",
+    "jm_factory_world_h1_ring_physical_gripper.usda",
+    "smic_world/smic_world.usd"
+  ],
+  "builtin_assets": [
+    {
+      "layer": "assets/vendor/robotiq_2f85/robotiq_2f85_flat.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "assets/vendor/unitree_ros/robots/h1_description/h1_clean.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "jm_wb7_pinkik/assets/h1_wb7_standalone.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "assets/vendor/atlas_mujoco/atlas_clean.usd",
+      "asset": "OmniPBR.mdl"
+    },
+    {
+      "layer": "jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd",
+      "asset": "OmniPBR.mdl"
+    }
+  ],
+  "scope": "USD scenes and their complete local dependency graph; no training runs",
+  "source_modified": false,
+  "files": [
+    {
+      "path": "assets/vendor/atlas_mujoco/atlas_clean.usd",
+      "source_sha256": "a29be63e5ef590c4e6b7abec9eed5bcbe4173e10bc9010fe82a5440b29b03dec",
+      "packaged_sha256": "a29be63e5ef590c4e6b7abec9eed5bcbe4173e10bc9010fe82a5440b29b03dec",
+      "bytes": 313131,
+      "dependencies": []
+    },
+    {
+      "path": "assets/vendor/robotiq_2f85/robotiq_2f85_flat.usd",
+      "source_sha256": "603d187941bdc3703a249f33793b28c733233cee626a0adee7e532a6d8a20a7e",
+      "packaged_sha256": "603d187941bdc3703a249f33793b28c733233cee626a0adee7e532a6d8a20a7e",
+      "bytes": 4003413,
+      "dependencies": []
+    },
+    {
+      "path": "assets/vendor/unitree_ros/robots/h1_description/h1_clean.usd",
+      "source_sha256": "e2c1f1c0b41fb8ff4996a3d51a71c85efa31c46146143cf868e403743db6aa03",
+      "packaged_sha256": "e2c1f1c0b41fb8ff4996a3d51a71c85efa31c46146143cf868e403743db6aa03",
+      "bytes": 24294252,
+      "dependencies": []
+    },
+    {
+      "path": "assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda",
+      "source_sha256": "5c48230720a600649ca127c7936b387e833b2b59c00cdfb0dad954a041062d2c",
+      "packaged_sha256": "a17747250f372e5ee9ea40d889efe232472144a6e689061decec5b6145837d94",
+      "bytes": 6024,
+      "dependencies": [
+        "assets/vendor/unitree_ros/robots/h1_description/h1_clean.usd",
+        "assets/vendor/robotiq_2f85/robotiq_2f85_flat.usd"
+      ]
+    },
+    {
+      "path": "jm_coop4_rl/assets/jm_world_h1_fleet.usda",
+      "source_sha256": "c620617978a7689a45b8dd34fcddb657b2c3a2e18bf73dc7bdf6d8f93c8af8b3",
+      "packaged_sha256": "640e22d6d11313e2b8aba4af80ec3405a8357ec0398bc13bda0feaa025a6a9e4",
+      "bytes": 3346,
+      "dependencies": [
+        "jm_factory_world_atlas_h1.usd",
+        "jm_wb7_pinkik/assets/h1_wb7_standalone.usd"
+      ]
+    },
+    {
+      "path": "jm_factory_world_atlas_h1.usd",
+      "source_sha256": "ffa4f1ad2b69c6cfbff5a6e9701ba3262f18ac7b1771f40b4edf952f9dac1961",
+      "packaged_sha256": "fb60135eef6eb784980e72804b9018b469da0e49f155e2de216f4303a0a2aea0",
+      "bytes": 6371,
+      "dependencies": [
+        "world_base.usd",
+        "world_equipment.usd",
+        "world_labels.usda",
+        "world_products.usda",
+        "world_robots.usda",
+        "world_staging.usda"
+      ]
+    },
+    {
+      "path": "jm_factory_world_h1_ring.usda",
+      "source_sha256": "64068150aff36be49fddd348ba203623d9a2b183a6e6bf5948d6f3e78123c1cf",
+      "packaged_sha256": "8522987e52785f32651fddc1d3805c9c1640442fd5ea0a754b4721634afa4d1a",
+      "bytes": 174,
+      "dependencies": [
+        "jm_h1_ring_pickplace/assets/jm_world_h1_ring_pickplace.usda"
+      ]
+    },
+    {
+      "path": "jm_factory_world_h1_ring_physical_gripper.usda",
+      "source_sha256": "af55081807a5a751d7dc80f6e0657f57da67ee57b3c5508a264380981d4c4da4",
+      "packaged_sha256": "84bc9a70b3819f24f88bff02e667d2c4fa88891491025af06c53286a698f71db",
+      "bytes": 253,
+      "dependencies": [
+        "jm_h1_ring_pickplace/assets/jm_world_h1_fleet_physical_gripper.usda",
+        "jm_h1_ring_pickplace/assets/jm_world_h1_ring_pickplace.usda"
+      ]
+    },
+    {
+      "path": "jm_h1_ring_pickplace/assets/jm_world_h1_fleet_physical_gripper.usda",
+      "source_sha256": "0078648b1d53d99140bd9dd668cdc25e19b6de357c49cfca015127cc7078ec5b",
+      "packaged_sha256": "0bc2c692fc60015dd6154af11ceba47fe038bae06603f9174652f98c9f6c1052",
+      "bytes": 1518,
+      "dependencies": [
+        "jm_coop4_rl/assets/jm_world_h1_fleet.usda",
+        "jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd"
+      ]
+    },
+    {
+      "path": "jm_h1_ring_pickplace/assets/jm_world_h1_ring_pickplace.usda",
+      "source_sha256": "43a538383b78aa03296721df7ed4416ad3ca239f055c2134a9d0cbc9819cbbda",
+      "packaged_sha256": "150f283bc05578e005654ca8193b42d31ee9bacf56f773592a092779e3e92f32",
+      "bytes": 29863,
+      "dependencies": [
+        "jm_coop4_rl/assets/jm_world_h1_fleet.usda",
+        "jm_h1_ring_pickplace/assets/ring_od140_id80_t30_m200g.usda"
+      ]
+    },
+    {
+      "path": "jm_h1_ring_pickplace/assets/ring_od140_id80_t30_m200g.usda",
+      "source_sha256": "bb253436eeedd2b7d483b986977dd36f308dbc33649eb95ac6697c45464a8a9e",
+      "packaged_sha256": "bb253436eeedd2b7d483b986977dd36f308dbc33649eb95ac6697c45464a8a9e",
+      "bytes": 556696,
+      "dependencies": []
+    },
+    {
+      "path": "jm_wb7_pinkik/assets/h1_wb7_physical_grasp_pad12_dual_mimic.usd",
+      "source_sha256": "39d3761ae0a067cbd496587e40121e5f5cb9326b56bb2c208ddce448c9a94ff8",
+      "packaged_sha256": "1e58f98bdf72d86fd8f6618891936c0675b9d4411960f2ef4d926352ba6f54dc",
+      "bytes": 28595890,
+      "dependencies": []
+    },
+    {
+      "path": "jm_wb7_pinkik/assets/h1_wb7_standalone.usd",
+      "source_sha256": "59f2ebacd370c58a5dfe7df94d381c9827b1d67d1d268eaf302975ae99e27ef4",
+      "packaged_sha256": "672246973552858f29ea05ddafaf223af517f5a4849efac465cc83bbbd9ffab2",
+      "bytes": 28595020,
+      "dependencies": []
+    },
+    {
+      "path": "smic_world/smic_world.usd",
+      "source_sha256": "9e9f8807ffa336e0624b20c34305ca954ebecf949f346bbf88f9a126b755ba8a",
+      "packaged_sha256": "e0785fed98c6e035cc679f9db4a430307a3c842bcc43021414607dc6e19049a2",
+      "bytes": 827,
+      "dependencies": [
+        "smic_world/world_base.usd",
+        "smic_world/world_equipment.usd",
+        "smic_world/world_labels.usda",
+        "smic_world/world_products.usda",
+        "smic_world/world_robots.usda",
+        "smic_world/world_staging.usda"
+      ]
+    },
+    {
+      "path": "smic_world/world_base.usd",
+      "source_sha256": "9ff5a0c7f0f46f8e7c0b9e5c8f56a76392369e52c6a2411aa4914ca5b15736d7",
+      "packaged_sha256": "d4d6c16a6b7bc4a2b0a41239d4e3735f059fa6414f8ff9508118f21afe350e57",
+      "bytes": 3528,
+      "dependencies": []
+    },
+    {
+      "path": "smic_world/world_equipment.usd",
+      "source_sha256": "908c2c785af53516dbe8d5ef74b3ee5101187d7463e3ce7fd7cad87df2b7d347",
+      "packaged_sha256": "c8fb94c2159e174bdb59d04da08807128a4231a347ce7f67d46cd4baab2d0614",
+      "bytes": 19130,
+      "dependencies": []
+    },
+    {
+      "path": "smic_world/world_labels.usda",
+      "source_sha256": "c105a829e49e197bd29f8e8d336c4834b9a2dd21c4e54d9e8d19f689684f60cf",
+      "packaged_sha256": "c105a829e49e197bd29f8e8d336c4834b9a2dd21c4e54d9e8d19f689684f60cf",
+      "bytes": 12713,
+      "dependencies": []
+    },
+    {
+      "path": "smic_world/world_products.usda",
+      "source_sha256": "1adee82a315ae944516d227ad1174e213488fe91267ec9f83050709969778fb5",
+      "packaged_sha256": "1adee82a315ae944516d227ad1174e213488fe91267ec9f83050709969778fb5",
+      "bytes": 77522,
+      "dependencies": []
+    },
+    {
+      "path": "smic_world/world_robots.usda",
+      "source_sha256": "e9269a9fa8df5f68b2f88a319ab62ce872f16a5b6336089222578ae367d10360",
+      "packaged_sha256": "59b58647de5ccae4649831e840e99e2def6a5e5bdabe184d35f3651809552462",
+      "bytes": 1161,
+      "dependencies": [
+        "assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda"
+      ]
+    },
+    {
+      "path": "smic_world/world_staging.usda",
+      "source_sha256": "ab1add5f80f2817527e5fa58a820b705fdb2365b08f7fb81b4ba76ed148093f5",
+      "packaged_sha256": "ab1add5f80f2817527e5fa58a820b705fdb2365b08f7fb81b4ba76ed148093f5",
+      "bytes": 4043,
+      "dependencies": []
+    },
+    {
+      "path": "world_base.usd",
+      "source_sha256": "fd44a5c84a1d52e4cdf34df17cc25c7e6752880b4e9b297b197828d68e845688",
+      "packaged_sha256": "fd44a5c84a1d52e4cdf34df17cc25c7e6752880b4e9b297b197828d68e845688",
+      "bytes": 22828,
+      "dependencies": []
+    },
+    {
+      "path": "world_equipment.usd",
+      "source_sha256": "9ced8d49201428324e803b4c95d5fbf7bfe39468c76e5dd9c0ca729a0abfbcf6",
+      "packaged_sha256": "eb2bdacd1ffc2ba9080871dc74c09a8ab17c0d8c8616e6eacc182ef74f25c55f",
+      "bytes": 49906,
+      "dependencies": []
+    },
+    {
+      "path": "world_labels.usda",
+      "source_sha256": "c51a48aeb9dd609e4cc924fc31b3c8cec79c708ae8ba8d88087c3ec2581c44a9",
+      "packaged_sha256": "c51a48aeb9dd609e4cc924fc31b3c8cec79c708ae8ba8d88087c3ec2581c44a9",
+      "bytes": 140,
+      "dependencies": []
+    },
+    {
+      "path": "world_products.usda",
+      "source_sha256": "d765aa2bad993c851ec41469e308eaa3fd89020000a2d9c9689bb69d995627d3",
+      "packaged_sha256": "d765aa2bad993c851ec41469e308eaa3fd89020000a2d9c9689bb69d995627d3",
+      "bytes": 190052,
+      "dependencies": []
+    },
+    {
+      "path": "world_robots.usda",
+      "source_sha256": "dd67e1d78ff5893749c6aeea19c9f1dae17c54b6671eb3499f8462f6d272a0ca",
+      "packaged_sha256": "2f0517949dba7d95846f828d1b5e4b11f3f9c5bda1373594b20fe9b2a72e54a7",
+      "bytes": 12287,
+      "dependencies": [
+        "assets/vendor/atlas_mujoco/atlas_clean.usd",
+        "assets/vendor/unitree_ros/robots/h1_description/h1_gripper.usda"
+      ]
+    },
+    {
+      "path": "world_staging.usda",
+      "source_sha256": "9fc323830d66b31393350dc1f3018b4238c83ee2b7dedade7fcc5d2e75d3797e",
+      "packaged_sha256": "9fc323830d66b31393350dc1f3018b4238c83ee2b7dedade7fcc5d2e75d3797e",
+      "bytes": 4143,
+      "dependencies": []
+    }
+  ]
+}
