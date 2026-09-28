@@ -6,11 +6,12 @@ Isaac Sim 설치와 기본 재질 라이브러리(`OmniPBR.mdl`)는 별도로 �
 
 ## 바로 열기
 
-현재 업로드 브랜치: **`codex/jm-keti-worlds-20260928`**.
-기존 `main`, KETI 브랜치 및 로컬 학습 브랜치는 변경하지 않았습니다.
+현재 배포 브랜치: **`main`**.
+2026-09-28 사용자 요청에 따라 검증된 `codex/jm-keti-worlds-20260928` 내용을
+main에 fast-forward 병합했습니다. 기존 KETI 브랜치와 로컬 실험 파일은 보존했습니다.
 
 ```powershell
-git clone --branch codex/jm-keti-worlds-20260928 https://github.com/kangbyounggwan/ISSAC_SIM_test.git
+git clone --branch main https://github.com/kangbyounggwan/ISSAC_SIM_test.git
 ```
 
 Isaac Sim의 **File → Open**에서 다음 파일을 엽니다. 폴더 구조를 유지해야 합니다.
