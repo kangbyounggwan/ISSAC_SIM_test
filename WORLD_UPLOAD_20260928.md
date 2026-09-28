@@ -50,3 +50,10 @@ JM의 기존 H1 재질 바인딩 경고도 원본과 동일하게 유지했다.
 
 USD 로딩/배치 검증과 동적 학습 성공은 구분한다.
 이번 업로드를 파지·리프트·보행 성공으로 표시하지 않는다.
+
+## Git 저장본 복원 검사
+
+월드 스냅샷 커밋 `99d0b2c`를 `git archive`로 추출하고 별도 경로에 복원했다.
+원래 작업 폴더의 미추적 파일에 의존하지 않는 상태에서 5개 진입점을 다시 열었다.
+26개 파일 해시 일치, 누락 파일 0, 패키지 외부 USD 레이어 0, 전체 PASS.
+세부 결과: [WORLD_SNAPSHOT_RESTORE_VALIDATION.json](WORLD_SNAPSHOT_RESTORE_VALIDATION.json).
