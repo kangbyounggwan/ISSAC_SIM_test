@@ -63,3 +63,4 @@ C:\isaacsim\python.bat smic_world\verify_smic_world.py
 - [KETI 설계 근거와 가정](smic_world/SMIC_WORLD_DESIGN.md)
 - [외부 모델 출처와 고지](assets/vendor/README.md)
 - [이번 업로드 작업 기록](WORLD_UPLOAD_20260928.md)
+- [Task 1 관측·FoundationPose·GraspGen-X·브라우저 도구](task1/README.md)
