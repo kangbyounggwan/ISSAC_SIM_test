@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "published_date": "2026-10-01",
+  "model": "WB5 frozen H1 locomotion actor",
+  "file": "policy_lower_corrected.pt",
+  "format": "TorchScript",
+  "size_bytes": 188522,
+  "sha256": "e1caf0201a43a82ef8d9bb8d597bffa631c14ab6a3312938afd6eeb41e2b3e0a",
+  "full_ppo_resume_checkpoint": false,
+  "input_dim": 69,
+  "output_dim": 19,
+  "architecture": [69, 128, 128, 128, 19],
+  "hidden_activation": "ELU",
+  "observation_order": [
+    {"name": "base_linear_velocity_body_mps", "dim": 3},
+    {"name": "base_angular_velocity_body_rps", "dim": 3},
+    {"name": "projected_unit_gravity_body", "dim": 3},
+    {"name": "command_vx_vy_yaw_rate", "dim": 3},
+    {"name": "body19_joint_position_minus_default_rad", "dim": 19},
+    {"name": "body19_joint_velocity_rps", "dim": 19},
+    {"name": "previous_raw_policy_action", "dim": 19}
+  ],
+  "body_joint_order": [
+    "left_hip_yaw_joint", "right_hip_yaw_joint", "torso_joint",
+    "left_hip_roll_joint", "right_hip_roll_joint",
+    "left_shoulder_pitch_joint", "right_shoulder_pitch_joint",
+    "left_hip_pitch_joint", "right_hip_pitch_joint",
+    "left_shoulder_roll_joint", "right_shoulder_roll_joint",
+    "left_knee_joint", "right_knee_joint",
+    "left_shoulder_yaw_joint", "right_shoulder_yaw_joint",
+    "left_ankle_joint", "right_ankle_joint", "left_elbow_joint", "right_elbow_joint"
+  ],
+  "default_joint_position_rad": [0, 0, 0, 0, 0, 0.28, 0.28, -0.28, -0.28, 0, 0, 0.79, 0.79, 0, 0, -0.52, -0.52, 0.52, 0.52],
+  "deployment_action": "joint_position_target_rad = default_joint_position_rad + 0.5 * raw_policy_action",
+  "deployment_physics_hz": 200,
+  "deployment_policy_hz": 50,
+  "training_deployment_physics_parity_verified": false,
+  "training_provenance_documented": {
+    "source_checkpoint": "model_1497.pt",
+    "source_checkpoint_sha256": "1d66c8607b39f6ed5fb3a07d72a837137c28bac51d684d5236979020746dc3c1",
+    "source_checkpoint_included": false,
+    "server_path_record_only": "/workspace/jm/jm_wb3_modular/runs/wb5_posture_reward_v1/model_1497.pt",
+    "server_file_currently_verified": false,
+    "parent_checkpoint": "WB4 model_1298.pt",
+    "additional_training_iterations": 200,
+    "num_envs": 4096
+  },
+  "known_limitations": [
+    "Contains torso and arm outputs as well as legs; not a legs-only actor",
+    "Not an 18-input / 3-output high-level rack navigation model",
+    "No critic, PPO optimizer, or full training state included",
+    "JM negative-yaw diagnostic stalled near 21.25 degrees; station-keeping/turning not approved",
+    "No physical grasp, loaded walking, or end-to-end unload success claimed",
+    "Robot assets and physics must be validated separately; this is not a complete runtime package"
+  ]
+}

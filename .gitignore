@@ -25,3 +25,6 @@ checkpoints/
 *.pt
 *.pth
 *.ckpt
+
+# Explicitly published inference artifact only; training runs remain excluded.
+!/models/wb5/policy_lower_corrected.pt

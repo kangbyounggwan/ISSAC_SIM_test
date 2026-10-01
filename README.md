@@ -25,12 +25,21 @@ Isaac Sim의 **File → Open**에서 다음 파일을 엽니다. 폴더 구조�
 | JM 물리 그리퍼 | [jm_factory_world_h1_ring_physical_gripper.usda](jm_factory_world_h1_ring_physical_gripper.usda) | 물리 그리퍼 모델을 합성한 링 실험 월드 |
 | KETI / SMIC | [smic_world.usd](smic_world/smic_world.usd) | 레이저 → 슬라이드 → 분류 → 프레스 → AMR 컨셉 셀 |
 
+## WB5 보행 모델 — 2026-10-01 추가
+
+[WB5 사용 설명](models/wb5/README.md) · [실행용 가중치](models/wb5/policy_lower_corrected.pt) · [해시·입출력 명세](models/wb5/manifest.json)
+
+현재 사용 중인 WB5 TorchScript actor를 포함합니다. **실행용 모델이며 PPO 학습 재개용 전체 체크포인트가 아닙니다.**
+파일 검증은 `python models/wb5/verify.py`, PyTorch 로딩 검증까지는 `python models/wb5/verify.py --load`로 실행합니다.
+월드를 여는 것만으로 보행이 자동 실행되지는 않습니다. 19관절 매핑과 관측·제어 연결이 필요하며, 현재 JM의 정지/회전 성공이 보장된 모델은 아닙니다.
+
 ## 어디까지 포함되어 있나
 
 - 최신 JM 월드 레이어와 KETI 셀, 참조하는 H1·Atlas·2F-85·링 모델.
 - 로컬 의존 파일 26개, 복사 전후 SHA-256 및 의존 관계 목록.
 - KETI 기존 설계 문서와 생성·검증 도구. 기존 JM 문서와 생성 도구도 보존.
-- **미포함:** 학습 가중치, 학습 실행 폴더, 녹화 영상, 데이터셋, 비밀키, 로컬 가상환경.
+- WB5 실행용 보행 가중치 1개와 검증 도구/명세(2026-10-01 추가).
+- **미포함:** 전체 PPO 학습 재개 체크포인트, 다른 학습 가중치, 학습 실행 폴더, 녹화 영상, 데이터셋, 비밀키, 로컬 가상환경.
 - 따라서 **월드를 열 수 있는 스냅샷**이지, 곧바로 보행·파지 학습이 재생되는 전체 실행 백업은 아닙니다.
 - 기존 생성 도구에는 개발 PC 전용 경로가 남아 있을 수 있습니다. 월드를 열기 위해 재생성할 필요는 없습니다.
 

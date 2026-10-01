@@ -9,3 +9,4 @@
 *.md text eol=lf
 *.png binary
 *.jpg binary
+*.pt binary
