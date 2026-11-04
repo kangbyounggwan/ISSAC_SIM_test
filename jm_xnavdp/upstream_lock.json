@@ -1,0 +1,14 @@
+{
+  "code_url": "https://github.com/InternRobotics/NavDP.git",
+  "code_commit": "bff5eb8857f50e082243fb455d312409daabc3aa",
+  "code_path": "artifacts/upstream/navdp_xnavdp_20260929",
+  "model_repo": "InternRobotics/X-NavDP",
+  "model_revision": "7cee38a8d8308874d2b8488783c612f42060ac41",
+  "model_file": "x-navdp_posttrain.ckpt",
+  "model_path": "artifacts/models/xnavdp/x-navdp_posttrain.ckpt",
+  "model_bytes": 873100357,
+  "model_sha256": "267089a81bbbe7a913debda6603f3f1b66a79520370ce953b2d888d793b89f24",
+  "embodiment": "unitree_g1",
+  "embodiment_index": 1,
+  "h1_transfer_validated": false
+}

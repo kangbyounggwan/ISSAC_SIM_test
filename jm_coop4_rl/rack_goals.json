@@ -1,0 +1,123 @@
+{
+  "world": "C:\\Users\\USER\\ISSAC_SIM_test\\jm_factory_world_atlas_h1.usd",
+  "world_sha256": "ffa4f1ad2b69c6cfbff5a6e9701ba3262f18ac7b1771f40b4edf952f9dac1961",
+  "status": "EXTRACTED_GOALS_NOT_YET_FOUR_ROBOT_VALIDATED",
+  "floor_z": 6.075,
+  "dock_pelvis_to_rack_front_m": 0.6,
+  "training_scope": "compact single-rack primitive; factory evaluation is separate",
+  "composition": "4x H1, user approved 2026-09-09; original identities retained for traceability",
+  "goals": [
+    {
+      "slot": "slot_1",
+      "original_robot": "H1_1",
+      "robot": "H1_1",
+      "robot_prim": "/World/H1Fleet/H1_1",
+      "rack_path": "/World/Dadong/F2/Products/RACK_cont_008",
+      "rack_aabb_min": [
+        35.81499998569489,
+        18.854999992847446,
+        5.999999988079071
+      ],
+      "rack_aabb_max": [
+        36.53500001430512,
+        19.475000005960467,
+        7.215000000745058
+      ],
+      "dock_world_xy": [
+        36.175000000000004,
+        18.254999992847445
+      ],
+      "dock_yaw_deg": 90,
+      "proposed_reset_world_xy": [
+        36.175000000000004,
+        17.054999992847446
+      ],
+      "reset_is_episode_initialization_not_motion": true,
+      "full_world_corridor_collision_validated": false
+    },
+    {
+      "slot": "slot_2",
+      "original_robot": "Atlas_1",
+      "robot": "H1_3",
+      "robot_prim": "/World/H1Fleet/H1_3",
+      "rack_path": "/World/Dadong/F2/Products/RACK_cont_009",
+      "rack_aabb_min": [
+        38.06499998569488,
+        18.854999992847446,
+        5.999999988079071
+      ],
+      "rack_aabb_max": [
+        38.78500001430511,
+        19.475000005960467,
+        7.215000000745058
+      ],
+      "dock_world_xy": [
+        38.425,
+        18.254999992847445
+      ],
+      "dock_yaw_deg": 90,
+      "proposed_reset_world_xy": [
+        38.425,
+        17.054999992847446
+      ],
+      "reset_is_episode_initialization_not_motion": true,
+      "full_world_corridor_collision_validated": false
+    },
+    {
+      "slot": "slot_3",
+      "original_robot": "H1_2",
+      "robot": "H1_2",
+      "robot_prim": "/World/H1Fleet/H1_2",
+      "rack_path": "/World/Dadong/F2/Products/RACK_cont_000",
+      "rack_aabb_min": [
+        48.214999985694874,
+        18.854999992847446,
+        5.999999988079071
+      ],
+      "rack_aabb_max": [
+        48.9350000143051,
+        19.475000005960467,
+        7.215000000745058
+      ],
+      "dock_world_xy": [
+        48.57499999999999,
+        18.254999992847445
+      ],
+      "dock_yaw_deg": 90,
+      "proposed_reset_world_xy": [
+        48.57499999999999,
+        17.054999992847446
+      ],
+      "reset_is_episode_initialization_not_motion": true,
+      "full_world_corridor_collision_validated": false
+    },
+    {
+      "slot": "slot_4",
+      "original_robot": "Atlas_2",
+      "robot": "H1_4",
+      "robot_prim": "/World/H1Fleet/H1_4",
+      "rack_path": "/World/Dadong/F2/Products/RACK_cont_015",
+      "rack_aabb_min": [
+        27.864999985694883,
+        18.854999992847446,
+        5.999999988079071
+      ],
+      "rack_aabb_max": [
+        28.585000014305113,
+        19.475000005960467,
+        7.215000000745058
+      ],
+      "dock_world_xy": [
+        28.224999999999998,
+        18.254999992847445
+      ],
+      "dock_yaw_deg": 90,
+      "proposed_reset_world_xy": [
+        28.224999999999998,
+        17.054999992847446
+      ],
+      "reset_is_episode_initialization_not_motion": true,
+      "full_world_corridor_collision_validated": false
+    }
+  ]
+}
